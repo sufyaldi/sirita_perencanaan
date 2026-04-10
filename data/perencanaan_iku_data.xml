@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="iku_1" model="sirita.perencanaan.iku">
+            <field name="code">IKU-1</field>
+            <field name="name">Lulusan Mendapat Pekerjaan Layak</field>
+            <field name="description">Kesiapan lulusan masuk dunia kerja atau berwirausaha.</field>
+        </record>
+        <record id="iku_2" model="sirita.perencanaan.iku">
+            <field name="code">IKU-2</field>
+            <field name="name">Mahasiswa Mendapat Pengalaman di Luar Kampus</field>
+            <field name="description">Mahasiswa melakukan magang, proyek desa, dll.</field>
+        </record>
+        <record id="iku_3" model="sirita.perencanaan.iku">
+            <field name="code">IKU-3</field>
+            <field name="name">Dosen Berkegiatan di Luar Kampus</field>
+            <field name="description">Dosen membimbing mahasiswa atau berpraktisi di luar.</field>
+        </record>
+        <record id="iku_4" model="sirita.perencanaan.iku">
+            <field name="code">IKU-4</field>
+            <field name="name">Praktisi Mengajar di Dalam Kampus</field>
+            <field name="description">Mendatangkan praktisi ahli untuk mengajar mata kuliah.</field>
+        </record>
+        <record id="iku_5" model="sirita.perencanaan.iku">
+            <field name="code">IKU-5</field>
+            <field name="name">Hasil Kerja Dosen Digunakan oleh Masyarakat</field>
+            <field name="description">Hasil riset dan pengabdian yang bermanfaat luas.</field>
+        </record>
+        <record id="iku_6" model="sirita.perencanaan.iku">
+            <field name="code">IKU-6</field>
+            <field name="name">Program Studi Bekerjasama dengan Mitra Kelas Dunia</field>
+            <field name="description">Kemitraan strategis untuk kurikulum dan magang.</field>
+        </record>
+        <record id="iku_7" model="sirita.perencanaan.iku">
+            <field name="code">IKU-7</field>
+            <field name="name">Kelas yang Kolaboratif dan Partisipatif</field>
+            <field name="description">Penerapan Case Method dan Team-Based Project.</field>
+        </record>
+        <record id="iku_8" model="sirita.perencanaan.iku">
+            <field name="code">IKU-8</field>
+            <field name="name">Program Studi Berstandar Internasional</field>
+            <field name="description">Akreditasi atau sertifikasi tingkat internasional.</field>
+        </record>
+    </data>
+</odoo>

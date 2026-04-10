@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- STANDAR BIAYA INTERNAL (SBI) - SAMPEL DASAR -->
+        <record id="sbi_konsumsi_rapat" model="perencanaan.sbi">
+            <field name="code">SBI-001</field>
+            <field name="name">Nasi Kotak / Konsumsi Rapat</field>
+            <field name="price">40000</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="sbi_snack_rapat" model="perencanaan.sbi">
+            <field name="code">SBI-002</field>
+            <field name="name">Snack Box Rapat</field>
+            <field name="price">15000</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="sbi_kertas_a4" model="perencanaan.sbi">
+            <field name="code">SBI-101</field>
+            <field name="name">Kertas A4 80 Gram (Rim)</field>
+            <field name="price">55000</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="sbi_narsum_nasional" model="perencanaan.sbi">
+            <field name="code">SBI-201</field>
+            <field name="name">Honorarium Nara Sumber Nasional (Jam)</field>
+            <field name="price">900000</field>
+            <field name="active">True</field>
+        </record>
+    </data>
+</odoo>

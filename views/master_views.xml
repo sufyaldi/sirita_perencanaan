@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- JENDELA WAKTU PERENCANAAN -->
+        <record id="view_perencanaan_period_tree" model="ir.ui.view">
+            <field name="name">sirita.perencanaan.period.list</field>
+            <field name="model">sirita.perencanaan.period</field>
+            <field name="arch" type="xml">
+                <list string="Jendela Waktu" editable="bottom">
+                    <field name="name"/>
+                    <field name="type"/>
+                    <field name="year"/>
+                    <field name="date_start"/>
+                    <field name="date_stop"/>
+                    <field name="is_active"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="view_perencanaan_period_form" model="ir.ui.view">
+            <field name="name">sirita.perencanaan.period.form</field>
+            <field name="model">sirita.perencanaan.period</field>
+            <field name="arch" type="xml">
+                <form string="Pengaturan Periode">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name" placeholder="Misal: Semester 1 / Usulan 2025"/>
+                                <field name="type"/>
+                                <field name="year"/>
+                            </group>
+                            <group>
+                                <field name="date_start"/>
+                                <field name="date_stop"/>
+                                <field name="is_active"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- ACTIONS UNTUK 2 MENU PERIODE -->
+        <record id="action_perencanaan_period_initial" model="ir.actions.act_window">
+            <field name="name">Periode Usulan Anggaran</field>
+            <field name="res_model">sirita.perencanaan.period</field>
+            <field name="view_mode">list,form</field>
+            <field name="domain">[('type', '=', 'initial')]</field>
+            <field name="context">{'default_type': 'initial'}</field>
+        </record>
+
+        <record id="action_perencanaan_period_revision" model="ir.actions.act_window">
+            <field name="name">Periode Usulan Revisi</field>
+            <field name="res_model">sirita.perencanaan.period</field>
+            <field name="view_mode">list,form</field>
+            <field name="domain">[('type', '=', 'revision')]</field>
+            <field name="context">{'default_type': 'revision'}</field>
+        </record>
+
+        <!-- INDIKATOR IKU -->
+        <record id="view_perencanaan_iku_list" model="ir.ui.view">
+            <field name="name">sirita.perencanaan.iku.list</field>
+            <field name="model">sirita.perencanaan.iku</field>
+            <field name="arch" type="xml">
+                <list string="Indikator IKU">
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="description"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="view_perencanaan_iku_form" model="ir.ui.view">
+            <field name="name">sirita.perencanaan.iku.form</field>
+            <field name="model">sirita.perencanaan.iku</field>
+            <field name="arch" type="xml">
+                <form string="Indikator IKU">
+                    <sheet>
+                        <group>
+                            <field name="code"/>
+                            <field name="name"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_perencanaan_iku" model="ir.actions.act_window">
+            <field name="name">Indikator Kinerja Utama (IKU)</field>
+            <field name="res_model">sirita.perencanaan.iku</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <!-- SUMBER ANGGARAN -->
+        <record id="view_perencanaan_sumber_tree" model="ir.ui.view">
+            <field name="name">perencanaan.sumber.list</field>
+            <field name="model">perencanaan.sumber</field>
+            <field name="arch" type="xml">
+                <list editable="bottom">
+                    <field name="name"/>
+                    <field name="code"/>
+                </list>
+            </field>
+        </record>
+        <record id="action_perencanaan_sumber" model="ir.actions.act_window">
+            <field name="name">Sumber Anggaran</field>
+            <field name="res_model">perencanaan.sumber</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <!-- SATUAN -->
+        <record id="view_perencanaan_satuan_tree" model="ir.ui.view">
+            <field name="name">perencanaan.satuan.list</field>
+            <field name="model">perencanaan.satuan</field>
+            <field name="arch" type="xml">
+                <list editable="bottom">
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+        <record id="action_perencanaan_satuan" model="ir.actions.act_window">
+            <field name="name">Satuan</field>
+            <field name="res_model">perencanaan.satuan</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <!-- AKUN -->
+        <record id="view_perencanaan_akun_tree" model="ir.ui.view">
+            <field name="name">perencanaan.akun.list</field>
+            <field name="model">perencanaan.akun</field>
+            <field name="arch" type="xml">
+                <list editable="bottom">
+                    <field name="code"/>
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+        <record id="action_perencanaan_akun" model="ir.actions.act_window">
+            <field name="name">Akun (Mata Anggaran)</field>
+            <field name="res_model">perencanaan.akun</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <!-- SBI -->
+        <record id="view_perencanaan_sbi_tree" model="ir.ui.view">
+            <field name="name">perencanaan.sbi.list</field>
+            <field name="model">perencanaan.sbi</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="price"/>
+                    <field name="satuan_id"/>
+                </list>
+            </field>
+        </record>
+        <record id="action_perencanaan_sbi" model="ir.actions.act_window">
+            <field name="name">Standar Biaya (SBI)</field>
+            <field name="res_model">perencanaan.sbi</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

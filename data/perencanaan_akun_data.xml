@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- SUMBER ANGGARAN (Lengkap) -->
+        <record id="sumber_rm" model="perencanaan.sumber">
+            <field name="name">Rupiah Murni (RM)</field>
+            <field name="code">RM</field>
+        </record>
+        <record id="sumber_pnbp" model="perencanaan.sumber">
+            <field name="name">PNBP</field>
+            <field name="code">PNBP</field>
+        </record>
+        <record id="sumber_boptn" model="perencanaan.sumber">
+            <field name="name">BOPTN</field>
+            <field name="code">BOPTN</field>
+        </record>
+
+        <!-- SATUAN (Lengkap) -->
+        <record id="satuan_orang" model="perencanaan.satuan">
+            <field name="name">Orang</field>
+        </record>
+        <record id="satuan_paket" model="perencanaan.satuan">
+            <field name="name">Paket</field>
+        </record>
+        <record id="satuan_kegiatan" model="perencanaan.satuan">
+            <field name="name">Kegiatan</field>
+        </record>
+        <record id="satuan_ob" model="perencanaan.satuan">
+            <field name="name">OB (Orang/Bulan)</field>
+        </record>
+        <record id="satuan_ok" model="perencanaan.satuan">
+            <field name="name">OK (Orang/Kegiatan)</field>
+        </record>
+        <record id="satuan_kali" model="perencanaan.satuan">
+            <field name="name">Kali</field>
+        </record>
+        <record id="satuan_hari" model="perencanaan.satuan">
+            <field name="name">Hari</field>
+        </record>
+
+        <!-- AKUN BELANJA PEGAWAI PNS (5111xx) -->
+        <record id="akun_511111" model="perencanaan.akun"><field name="code">511111</field><field name="name">Belanja Gaji Pokok PNS</field></record>
+        <record id="akun_511119" model="perencanaan.akun"><field name="code">511119</field><field name="name">Belanja Pembulatan Gaji PNS</field></record>
+        <record id="akun_511121" model="perencanaan.akun"><field name="code">511121</field><field name="name">Belanja Tunj. Suami/Istri PNS</field></record>
+        <record id="akun_511122" model="perencanaan.akun"><field name="code">511122</field><field name="name">Belanja Tunj. Anak PNS</field></record>
+        <record id="akun_511123" model="perencanaan.akun"><field name="code">511123</field><field name="name">Belanja Tunj. Struktural PNS</field></record>
+        <record id="akun_511124" model="perencanaan.akun"><field name="code">511124</field><field name="name">Belanja Tunj. Fungsional PNS</field></record>
+        <record id="akun_511125" model="perencanaan.akun"><field name="code">511125</field><field name="name">Belanja Tunj. PPh PNS</field></record>
+        <record id="akun_511126" model="perencanaan.akun"><field name="code">511126</field><field name="name">Belanja Tunj. Beras PNS</field></record>
+        <record id="akun_511129" model="perencanaan.akun"><field name="code">511129</field><field name="name">Belanja Uang Makan PNS</field></record>
+        <record id="akun_511151" model="perencanaan.akun"><field name="code">511151</field><field name="name">Belanja Tunjangan Umum PNS</field></record>
+        <record id="akun_511153" model="perencanaan.akun"><field name="code">511153</field><field name="name">Belanja Tunjangan Profesi Dosen</field></record>
+        <record id="akun_511154" model="perencanaan.akun"><field name="code">511154</field><field name="name">Belanja Tunjangan Kehormatan Profesor</field></record>
+        <record id="akun_511521" model="perencanaan.akun"><field name="code">511521</field><field name="name">Belanja Tunjangan Tenaga Pendidik Non PNS</field></record>
+        <record id="akun_512211" model="perencanaan.akun"><field name="code">512211</field><field name="name">Belanja Uang Lembur</field></record>
+        <record id="akun_512411" model="perencanaan.akun"><field name="code">512411</field><field name="name">Belanja Pegawai (Tunjangan Khusus/Kegiatan/Kinerja)</field></record>
+
+        <!-- AKUN BELANJA PEGAWAI PPPK (5116xx) -->
+        <record id="akun_511611" model="perencanaan.akun"><field name="code">511611</field><field name="name">Belanja Gaji Pokok PPPK</field></record>
+        <record id="akun_511619" model="perencanaan.akun"><field name="code">511619</field><field name="name">Belanja Pembulatan Gaji PPPK</field></record>
+        <record id="akun_511621" model="perencanaan.akun"><field name="code">511621</field><field name="name">Belanja Tunjangan Suami/Istri PPPK</field></record>
+        <record id="akun_511622" model="perencanaan.akun"><field name="code">511622</field><field name="name">Belanja Tunjangan Anak PPPK</field></record>
+        <record id="akun_511624" model="perencanaan.akun"><field name="code">511624</field><field name="name">Belanja Tunjangan Fungsional PPPK</field></record>
+        <record id="akun_511625" model="perencanaan.akun"><field name="code">511625</field><field name="name">Belanja Tunjangan Beras PPPK</field></record>
+        <record id="akun_511628" model="perencanaan.akun"><field name="code">511628</field><field name="name">Belanja Uang Makan PPPK</field></record>
+        <record id="akun_512414" model="perencanaan.akun"><field name="code">512414</field><field name="name">Belanja Pegawai Tunjangan Khusus/Kegiatan/Kinerja PPPK</field></record>
+
+        <!-- AKUN BELANJA BARANG OPERASIONAL (5211xx) -->
+        <record id="akun_521111" model="perencanaan.akun"><field name="code">521111</field><field name="name">Belanja Keperluan Perkantoran</field></record>
+        <record id="akun_521114" model="perencanaan.akun"><field name="code">521114</field><field name="name">Belanja Pengiriman Surat Dinas Pos Pusat</field></record>
+        <record id="akun_521115" model="perencanaan.akun"><field name="code">521115</field><field name="name">Belanja Honor Operasional Satuan Kerja</field></record>
+        <record id="akun_521119" model="perencanaan.akun"><field name="code">521119</field><field name="name">Belanja Barang Operasional Lainnya</field></record>
+        <record id="akun_521211" model="perencanaan.akun"><field name="code">521211</field><field name="name">Belanja Bahan</field></record>
+        <record id="akun_521213" model="perencanaan.akun"><field name="code">521213</field><field name="name">Belanja Honor Output Kegiatan</field></record>
+        <record id="akun_521219" model="perencanaan.akun"><field name="code">521219</field><field name="name">Belanja Barang Non Operasional Lainnya</field></record>
+        <record id="akun_521231" model="perencanaan.akun"><field name="code">521231</field><field name="name">Belanja Barang Pemberian Penghargaan Dalam Bentuk Uang</field></record>
+
+        <!-- AKUN BELANJA JASA & SEWA (5221xx) -->
+        <record id="akun_522111" model="perencanaan.akun"><field name="code">522111</field><field name="name">Belanja Langganan Listrik</field></record>
+        <record id="akun_522112" model="perencanaan.akun"><field name="code">522112</field><field name="name">Belanja Langganan Telepon</field></record>
+        <record id="akun_522113" model="perencanaan.akun"><field name="code">522113</field><field name="name">Belanja Langganan Air</field></record>
+        <record id="akun_522119" model="perencanaan.akun"><field name="code">522119</field><field name="name">Belanja Langganan Daya dan Jasa Lainnya</field></record>
+        <record id="akun_522121" model="perencanaan.akun"><field name="code">522121</field><field name="name">Belanja Jasa Pos dan Giro</field></record>
+        <record id="akun_522131" model="perencanaan.akun"><field name="code">522131</field><field name="name">Belanja Jasa Konsultan</field></record>
+        <record id="akun_522141" model="perencanaan.akun"><field name="code">522141</field><field name="name">Belanja Sewa</field></record>
+        <record id="akun_522151" model="perencanaan.akun"><field name="code">522151</field><field name="name">Belanja Jasa Profesi</field></record>
+
+        <!-- AKUN PEMELIHARAAN (523xxx) -->
+        <record id="akun_523111" model="perencanaan.akun"><field name="code">523111</field><field name="name">Belanja Pemeliharaan Gedung dan Bangunan</field></record>
+        <record id="akun_523121" model="perencanaan.akun"><field name="code">523121</field><field name="name">Belanja Pemeliharaan Peralatan dan Mesin</field></record>
+
+        <!-- AKUN PERJALANAN DINAS (524xxx) -->
+        <record id="akun_524111" model="perencanaan.akun"><field name="code">524111</field><field name="name">Belanja Perjalanan Dinas Biasa</field></record>
+        <record id="akun_524113" model="perencanaan.akun"><field name="code">524113</field><field name="name">Belanja Perjalanan Dinas Dalam Kota</field></record>
+        <record id="akun_524114" model="perencanaan.akun"><field name="code">524114</field><field name="name">Belanja Perjalanan Dinas Paket Meeting Dalam Kota</field></record>
+        <record id="akun_524119" model="perencanaan.akun"><field name="code">524119</field><field name="name">Belanja Perjalanan Dinas Paket Meeting Luar Kota</field></record>
+        <record id="akun_524211" model="perencanaan.akun"><field name="code">524211</field><field name="name">Belanja Perjalanan Dinas Biasa - Luar Negeri</field></record>
+
+        <!-- BELANJA MODAL & SOSIAL -->
+        <record id="akun_532111" model="perencanaan.akun"><field name="code">532111</field><field name="name">Belanja Modal Peralatan dan Mesin</field></record>
+        <record id="akun_536111" model="perencanaan.akun"><field name="code">536111</field><field name="name">Belanja Modal Lainnya</field></record>
+        <record id="akun_574111" model="perencanaan.akun"><field name="code">574111</field><field name="name">Belanja Bantuan Sosial Untuk Perlindungan Sosial Dalam Bentuk Uang</field></record>
+    </data>
+</odoo>

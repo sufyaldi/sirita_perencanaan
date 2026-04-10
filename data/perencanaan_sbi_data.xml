@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- STANDAR BIAYA INPUT (SBI) CONTOH -->
+        <record id="sbi_uh_dalam_kota" model="perencanaan.sbi">
+            <field name="name">Uang Harian Perjalanan Dinas Dalam Kota</field>
+            <field name="code">UH-DK</field>
+            <field name="price">150000</field>
+            <field name="satuan_id" ref="satuan_hari"/>
+        </record>
+        <record id="sbi_uh_luar_kota" model="perencanaan.sbi">
+            <field name="name">Uang Harian Perjalanan Dinas Luar Kota</field>
+            <field name="code">UH-LK</field>
+            <field name="price">430000</field>
+            <field name="satuan_id" ref="satuan_hari"/>
+        </record>
+        <record id="sbi_konsumsi_rapat" model="perencanaan.sbi">
+            <field name="name">Konsumsi Rapat / Snack</field>
+            <field name="code">KONS-R</field>
+            <field name="price">25000</field>
+            <field name="satuan_id" ref="satuan_orang"/>
+        </record>
+        <record id="sbi_honor_narsum" model="perencanaan.sbi">
+            <field name="name">Honorarium Narasumber (Pakar/Luar)</field>
+            <field name="code">HONOR-NS</field>
+            <field name="price">900000</field>
+            <field name="satuan_id" ref="satuan_orang"/>
+        </record>
+    </data>
+</odoo>

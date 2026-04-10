@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="sirita_perencanaan.PerencanaanDashboard">
+        <div class="o_dashboard_perencanaan p-4" style="background-color: #f8f9fa; min-height: 100vh;">
+            <div class="container-fluid">
+                <!-- Header -->
+                <div class="row mb-4">
+                    <div class="col-12 d-flex justify-content-between align-items-center bg-white p-4 shadow-sm rounded-3">
+                        <div>
+                            <h2 class="mb-1 text-primary fw-bold">Beranda Perencanaan</h2>
+                            <p class="text-muted mb-0">Statistik Anggaran Berbasis Kinerja (IKU)</p>
+                        </div>
+                        <button class="btn btn-outline-primary shadow-sm" t-on-click="loadStats">
+                            <i class="fa fa-refresh me-2"></i>Segarkan Data
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm border-0 border-start border-primary border-5 h-100">
+                            <div class="card-body py-4">
+                                <h6 class="text-uppercase text-muted fw-bold">Usulan Draft</h6>
+                                <h3 class="fw-bold text-primary" t-esc="formatCurrency(state.stats.states.draft)"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm border-0 border-start border-warning border-5 h-100">
+                            <div class="card-body py-4">
+                                <h6 class="text-uppercase text-muted fw-bold">Sedang Direviu (SPI/LPM)</h6>
+                                <h3 class="fw-bold text-warning" t-esc="formatCurrency(state.stats.states.review)"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm border-0 border-start border-success border-5 h-100">
+                            <div class="card-body py-4">
+                                <h6 class="text-uppercase text-muted fw-bold">Pagu Selesai / Disetujui</h6>
+                                <h3 class="fw-bold text-success" t-esc="formatCurrency(state.stats.states.done)"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- IKU Table -->
+                    <div class="col-md-7 mb-4">
+                        <div class="card shadow-sm border-0 h-100">
+                            <div class="card-header bg-white py-3">
+                                <h5 class="mb-0 fw-bold"><i class="fa fa-bullseye me-2 text-danger"></i>Alokasi Dana Per IKU</h5>
+                            </div>
+                            <div class="card-body p-0">
+                                <table class="table table-hover mb-0">
+                                    <thead class="bg-light">
+                                        <tr>
+                                            <th class="ps-4">Kode IKU</th>
+                                            <th class="text-end pe-4">Total Anggaran</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <t t-foreach="state.stats.iku_data" t-as="iku" t-key="iku.code">
+                                            <tr>
+                                                <td class="ps-4 fw-bold" t-esc="iku.code"/>
+                                                <td class="text-end pe-4 text-primary fw-bold" t-esc="formatCurrency(iku.amount)"/>
+                                            </tr>
+                                        </t>
+                                        <tr t-if="state.stats.iku_data.length === 0">
+                                            <td colspan="2" class="text-center py-5 text-muted">Belum ada data IKU terisi</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Top 5 Depts -->
+                    <div class="col-md-5 mb-4">
+                        <div class="card shadow-sm border-0 h-100">
+                            <div class="card-header bg-white py-3">
+                                <h5 class="mb-0 fw-bold"><i class="fa fa-university me-2 text-info"></i>Unit Kerja Terbesar</h5>
+                            </div>
+                            <div class="card-body">
+                                <t t-foreach="state.stats.top_depts" t-as="dept" t-key="dept.name">
+                                    <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
+                                        <span class="fw-bold" t-esc="dept.name"/>
+                                        <span class="badge bg-info-light text-primary fs-6" t-esc="formatCurrency(dept.amount)"/>
+                                    </div>
+                                </t>
+                                <div t-if="state.stats.top_depts.length === 0" class="text-center py-5 text-muted">
+                                    Belum ada data unit kerja
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>

@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="sbi_522151_1" model="perencanaan.sbi">
+            <field name="name">Honorarium Narasumber / Moderator / Pembawa Acara / Panitia Y</field>
+            <field name="code">522151 1</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_522151_3" model="perencanaan.sbi">
+            <field name="name">Menteri/Pejabat Setingkat Menteri/ Pejabat Negara Lainnya/yang disetarakan Y</field>
+            <field name="code">522151 3</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_522151_4" model="perencanaan.sbi">
+            <field name="name">Pejabat Eselon I / yang disetarakan Y</field>
+            <field name="code">522151 4</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_522151_2" model="perencanaan.sbi">
+            <field name="name">Honorarium Narasumber N</field>
+            <field name="code">522151 2</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_522151_5" model="perencanaan.sbi">
+            <field name="name">Pejabat Eselon II / yang disetarakan Y</field>
+            <field name="code">522151 5</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_522151_6" model="perencanaan.sbi">
+            <field name="name">Pejabat Eselon III ke bawah / yang disetarakan Y</field>
+            <field name="code">522151 6</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_522151_15" model="perencanaan.sbi">
+            <field name="name">Honorarium Narasumber N</field>
+            <field name="code">522151 15</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_522151_7" model="perencanaan.sbi">
+            <field name="name">Honorarium Moderator N</field>
+            <field name="code">522151 7</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_522151_8" model="perencanaan.sbi">
+            <field name="name">Honorarium Pembawa Acara N</field>
+            <field name="code">522151 8</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_522151"/>
+        </record>
+        <record id="sbi_521211_9" model="perencanaan.sbi">
+            <field name="name">Honorarium Panitia Y</field>
+            <field name="code">521211 9</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_10" model="perencanaan.sbi">
+            <field name="name">Penanggung Jawab N</field>
+            <field name="code">521211 10</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_11" model="perencanaan.sbi">
+            <field name="name">Ketua N</field>
+            <field name="code">521211 11</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_12" model="perencanaan.sbi">
+            <field name="name">Wakil Ketua N</field>
+            <field name="code">521211 12</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_13" model="perencanaan.sbi">
+            <field name="name">Sekretaris N</field>
+            <field name="code">521211 13</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_14" model="perencanaan.sbi">
+            <field name="name">Anggota N</field>
+            <field name="code">521211 14</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_524111_16" model="perencanaan.sbi">
+            <field name="name">Uang Transportasi dan Bahan Bakar Minyak (BBM) Y</field>
+            <field name="code">524111 16</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_17" model="perencanaan.sbi">
+            <field name="name">Transportasi Lokal Parepare N</field>
+            <field name="code">524111 17</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_18" model="perencanaan.sbi">
+            <field name="name">Transportasi darat ke Luar Kota dalam Provinsi Sulawesi Selatan dan Sulawesi Barat, Pulang Pergi (PP) Y</field>
+            <field name="code">524111 18</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_19" model="perencanaan.sbi">
+            <field name="name">Sulawesi Selatan Y</field>
+            <field name="code">524111 19</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_20" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Makassar N</field>
+            <field name="code">524111 20</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_21" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Makassar (Transit, Bandara-Pelabuhan) N</field>
+            <field name="code">524111 21</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_22" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Pinrang N</field>
+            <field name="code">524111 22</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_23" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Sidrap N</field>
+            <field name="code">524111 23</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_24" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Barru N</field>
+            <field name="code">524111 24</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_25" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Pangkep N</field>
+            <field name="code">524111 25</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_26" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Enrekang N</field>
+            <field name="code">524111 26</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_27" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Wajo N</field>
+            <field name="code">524111 27</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_28" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Soppeng N</field>
+            <field name="code">524111 28</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_29" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Maros N</field>
+            <field name="code">524111 29</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_30" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Gowa N</field>
+            <field name="code">524111 30</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_31" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Takalar N</field>
+            <field name="code">524111 31</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_32" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Jeneponto N</field>
+            <field name="code">524111 32</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_33" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Bantaeng N</field>
+            <field name="code">524111 33</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_34" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Bulukumba N</field>
+            <field name="code">524111 34</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_35" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Sinjai N</field>
+            <field name="code">524111 35</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_36" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Kepulauan Selayar N</field>
+            <field name="code">524111 36</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_37" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Bone N</field>
+            <field name="code">524111 37</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_38" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Luwu N</field>
+            <field name="code">524111 38</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_39" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Luwu Utara N</field>
+            <field name="code">524111 39</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_40" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Luwu Timur N</field>
+            <field name="code">524111 40</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_41" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Palopo N</field>
+            <field name="code">524111 41</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_42" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Tana Toraja N</field>
+            <field name="code">524111 42</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_43" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Toraja Utara N</field>
+            <field name="code">524111 43</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_44" model="perencanaan.sbi">
+            <field name="name">Sulawesi Barat Y</field>
+            <field name="code">524111 44</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_45" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Polman N</field>
+            <field name="code">524111 45</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_46" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Majene N</field>
+            <field name="code">524111 46</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_47" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Mamasa N</field>
+            <field name="code">524111 47</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_48" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Mamuju N</field>
+            <field name="code">524111 48</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_49" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Mamuju Tengah N</field>
+            <field name="code">524111 49</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_50" model="perencanaan.sbi">
+            <field name="name">Transportasi Parepare - Pasang Kayu N</field>
+            <field name="code">524111 50</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_51" model="perencanaan.sbi">
+            <field name="name">Bahan Bakar Minyak (BBM) Mobil Dinas /Mobil Rental Untuk Dinas Y</field>
+            <field name="code">524111 51</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_52" model="perencanaan.sbi">
+            <field name="name">Operasional Harian Dalam Kota Y</field>
+            <field name="code">524111 52</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_53" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.250 - 1.499 cc N</field>
+            <field name="code">524111 53</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_54" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.500 - 1.749 cc N</field>
+            <field name="code">524111 54</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_55" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.750 - 1.999 cc N</field>
+            <field name="code">524111 55</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_56" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.000 - 2.249 cc N</field>
+            <field name="code">524111 56</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_57" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.250 - 2.499 cc N</field>
+            <field name="code">524111 57</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_58" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.500 - 2.749 cc N</field>
+            <field name="code">524111 58</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_59" model="perencanaan.sbi">
+            <field name="name">Mobil Bus N</field>
+            <field name="code">524111 59</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_60" model="perencanaan.sbi">
+            <field name="name">Motor 110 cc N</field>
+            <field name="code">524111 60</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_61" model="perencanaan.sbi">
+            <field name="name">Motor 150 cc N</field>
+            <field name="code">524111 61</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_62" model="perencanaan.sbi">
+            <field name="name">Kedinasan Luar Kota (Parepare - Kota/Kabupaten di Sulsel, PP) Y</field>
+            <field name="code">524111 62</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_63" model="perencanaan.sbi">
+            <field name="name">Jarak dari Parepare ke Tempat Tujuan (0-50 Km) Y</field>
+            <field name="code">524111 63</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_64" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.250 - 1.499 cc N</field>
+            <field name="code">524111 64</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_65" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.500 - 1.749 cc N</field>
+            <field name="code">524111 65</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_66" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.750 - 1.999 cc N</field>
+            <field name="code">524111 66</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_67" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.000 - 2.249 cc N</field>
+            <field name="code">524111 67</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_68" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.250 - 2.499 cc N</field>
+            <field name="code">524111 68</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_69" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.500 - 2.749 cc N</field>
+            <field name="code">524111 69</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_70" model="perencanaan.sbi">
+            <field name="name">Mobil Bus N</field>
+            <field name="code">524111 70</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_71" model="perencanaan.sbi">
+            <field name="name">Motor 110 cc N</field>
+            <field name="code">524111 71</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_72" model="perencanaan.sbi">
+            <field name="name">Motor 150 cc N</field>
+            <field name="code">524111 72</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_73" model="perencanaan.sbi">
+            <field name="name">Jarak dari Parepare ke Tempat Tujuan (51-150 Km) Y</field>
+            <field name="code">524111 73</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_74" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.250 - 1.499 cc N</field>
+            <field name="code">524111 74</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_75" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.500 - 1.749 cc N</field>
+            <field name="code">524111 75</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_76" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.750 - 1.999 cc N</field>
+            <field name="code">524111 76</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_77" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.000 - 2.249 cc N</field>
+            <field name="code">524111 77</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_78" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.250 - 2.499 cc N</field>
+            <field name="code">524111 78</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_79" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.500 - 2.749 cc N</field>
+            <field name="code">524111 79</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_80" model="perencanaan.sbi">
+            <field name="name">Mobil Bus N</field>
+            <field name="code">524111 80</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_81" model="perencanaan.sbi">
+            <field name="name">Jarak dari Parepare ke Tempat Tujuan (151-300 Km) Y</field>
+            <field name="code">524111 81</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_82" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.250 - 1.499 cc N</field>
+            <field name="code">524111 82</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_83" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.500 - 1.749 cc N</field>
+            <field name="code">524111 83</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_84" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 1.750 - 1.999 cc N</field>
+            <field name="code">524111 84</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_85" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.000 - 2.249 cc N</field>
+            <field name="code">524111 85</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_86" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.250 - 2.499 cc N</field>
+            <field name="code">524111 86</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_87" model="perencanaan.sbi">
+            <field name="name">Mobil Kapasitas 2.500 - 2.749 cc N</field>
+            <field name="code">524111 87</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_88" model="perencanaan.sbi">
+            <field name="name">Mobil Bus N</field>
+            <field name="code">524111 88</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_630" model="perencanaan.sbi">
+            <field name="name">Transportasi Rumah-Bandara N</field>
+            <field name="code">524111 630</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_637" model="perencanaan.sbi">
+            <field name="name">Transportasi Hotel-Bandara N</field>
+            <field name="code">524111 637</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_686" model="perencanaan.sbi">
+            <field name="name">Transportasi Darat Jakarta-Bandung N</field>
+            <field name="code">524111 686</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_739" model="perencanaan.sbi">
+            <field name="name">Transportasi Darat Jakarta-Cirebon N</field>
+            <field name="code">524111 739</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_787" model="perencanaan.sbi">
+            <field name="name">Transportasi N</field>
+            <field name="code">524111 787</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_819" model="perencanaan.sbi">
+            <field name="name">Transportasi Darat Surabaya-Malang N</field>
+            <field name="code">524111 819</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_824" model="perencanaan.sbi">
+            <field name="name">Tiket Kapal Laut Makassar-Surabaya N</field>
+            <field name="code">524111 824</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_825" model="perencanaan.sbi">
+            <field name="name">Transportasi Darat Surabaya-Bangkalan N</field>
+            <field name="code">524111 825</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_826" model="perencanaan.sbi">
+            <field name="name">Transportasi Darat Surabaya-Kediri N</field>
+            <field name="code">524111 826</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_911" model="perencanaan.sbi">
+            <field name="name">Tiket Kapal Laut N</field>
+            <field name="code">524111 911</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_524111_939" model="perencanaan.sbi">
+            <field name="name">Transportasi Darat Surabaya-Pamekasan N</field>
+            <field name="code">524111 939</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524111"/>
+        </record>
+        <record id="sbi_521211_89" model="perencanaan.sbi">
+            <field name="name">Konsumsi Rapat/Pertemuan/Forum Y</field>
+            <field name="code">521211 89</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_90" model="perencanaan.sbi">
+            <field name="name">Rapat/Pertemuan/Forum yang berlangsung dibawah 2 jam Y</field>
+            <field name="code">521211 90</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_91" model="perencanaan.sbi">
+            <field name="name">Air Mineral N</field>
+            <field name="code">521211 91</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_92" model="perencanaan.sbi">
+            <field name="name">Rapat biasa yang pesertanya melibatkan satker lainnya/eselon II lainnya/eselon I lainnya/kementerian negara/lembaga lainnya/Instansi Pemerintah/masyarakat Y</field>
+            <field name="code">521211 92</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_93" model="perencanaan.sbi">
+            <field name="name">Konsumsi Makan N</field>
+            <field name="code">521211 93</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_94" model="perencanaan.sbi">
+            <field name="name">Konsumsi Snack N</field>
+            <field name="code">521211 94</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_95" model="perencanaan.sbi">
+            <field name="name">Pertemuan/Forum Kegiatan biasa yang pesertanya melibatkan satker lainnya/eselon II lainnya/eselon I lainnya/kementerian negara/lembaga lainnya/Instansi Pemerintah/masyarakat Y</field>
+            <field name="code">521211 95</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_96" model="perencanaan.sbi">
+            <field name="name">Konsumsi Makan N</field>
+            <field name="code">521211 96</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_97" model="perencanaan.sbi">
+            <field name="name">Konsumsi Snack N</field>
+            <field name="code">521211 97</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_98" model="perencanaan.sbi">
+            <field name="name">Rapat/Pertemuan/Forum yang menggunakan jasa katring Y</field>
+            <field name="code">521211 98</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_99" model="perencanaan.sbi">
+            <field name="name">Konsumsi Makan N</field>
+            <field name="code">521211 99</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_100" model="perencanaan.sbi">
+            <field name="name">Konsumsi Snack N</field>
+            <field name="code">521211 100</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_101" model="perencanaan.sbi">
+            <field name="name">Rapat/Pertemuan/Forum khusus kegiatan kemahasiswaan Y</field>
+            <field name="code">521211 101</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_102" model="perencanaan.sbi">
+            <field name="name">Konsumsi Makan N</field>
+            <field name="code">521211 102</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_103" model="perencanaan.sbi">
+            <field name="name">Konsumsi Snack N</field>
+            <field name="code">521211 103</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_104" model="perencanaan.sbi">
+            <field name="name">Fasilitas/Kelengkapan Kegiatan, Kepesertaan dan Kepanitiaan Y</field>
+            <field name="code">521211 104</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_105" model="perencanaan.sbi">
+            <field name="name">Skala Lokal (Internal/Dalam Kota) Y</field>
+            <field name="code">521211 105</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_106" model="perencanaan.sbi">
+            <field name="name">Note/Buku Agenda/Pulpen/Pensil N</field>
+            <field name="code">521211 106</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_107" model="perencanaan.sbi">
+            <field name="name">Sertifikat N</field>
+            <field name="code">521211 107</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_108" model="perencanaan.sbi">
+            <field name="name">Desain Spanduk N</field>
+            <field name="code">521211 108</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_109" model="perencanaan.sbi">
+            <field name="name">Cetak Spanduk N</field>
+            <field name="code">521211 109</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_110" model="perencanaan.sbi">
+            <field name="name">Name Tag N</field>
+            <field name="code">521211 110</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_546" model="perencanaan.sbi">
+            <field name="name">Cendramata N</field>
+            <field name="code">521211 546</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_614" model="perencanaan.sbi">
+            <field name="name">Desain Sertifikat N</field>
+            <field name="code">521211 614</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_704" model="perencanaan.sbi">
+            <field name="name">Desain Flyer N</field>
+            <field name="code">521211 704</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_111" model="perencanaan.sbi">
+            <field name="name">Skala Regional (Provinsi) Y</field>
+            <field name="code">521211 111</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_112" model="perencanaan.sbi">
+            <field name="name">Note/Buku Agenda/Pulpen/Pensil N</field>
+            <field name="code">521211 112</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_113" model="perencanaan.sbi">
+            <field name="name">Sertifikat N</field>
+            <field name="code">521211 113</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_114" model="perencanaan.sbi">
+            <field name="name">Desain Spanduk N</field>
+            <field name="code">521211 114</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_115" model="perencanaan.sbi">
+            <field name="name">Cetak Spanduk N</field>
+            <field name="code">521211 115</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_116" model="perencanaan.sbi">
+            <field name="name">Name Tag N</field>
+            <field name="code">521211 116</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_117" model="perencanaan.sbi">
+            <field name="name">Souvenir/Seminar Gift N</field>
+            <field name="code">521211 117</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_547" model="perencanaan.sbi">
+            <field name="name">Cendramata Narasumber/Moderator N</field>
+            <field name="code">521211 547</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_118" model="perencanaan.sbi">
+            <field name="name">Skala Nasional Y</field>
+            <field name="code">521211 118</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_119" model="perencanaan.sbi">
+            <field name="name">Note/Buku Agenda/Pulpen/Pensil N</field>
+            <field name="code">521211 119</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_120" model="perencanaan.sbi">
+            <field name="name">Sertifikat N</field>
+            <field name="code">521211 120</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_121" model="perencanaan.sbi">
+            <field name="name">Desain Spanduk N</field>
+            <field name="code">521211 121</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_122" model="perencanaan.sbi">
+            <field name="name">Cetak Spanduk N</field>
+            <field name="code">521211 122</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_123" model="perencanaan.sbi">
+            <field name="name">Name Tag N</field>
+            <field name="code">521211 123</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_124" model="perencanaan.sbi">
+            <field name="name">Souvenir/Seminar Gift N</field>
+            <field name="code">521211 124</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_548" model="perencanaan.sbi">
+            <field name="name">Cendramata Narasumber/Moderator N</field>
+            <field name="code">521211 548</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_604" model="perencanaan.sbi">
+            <field name="name">Workshop/ Seminar Kit N</field>
+            <field name="code">521211 604</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_125" model="perencanaan.sbi">
+            <field name="name">Skala Internasional Y</field>
+            <field name="code">521211 125</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_126" model="perencanaan.sbi">
+            <field name="name">Note/Buku Agenda/Pulpen/Pensil N</field>
+            <field name="code">521211 126</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_127" model="perencanaan.sbi">
+            <field name="name">Sertifikat N</field>
+            <field name="code">521211 127</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_128" model="perencanaan.sbi">
+            <field name="name">Desain Spanduk N</field>
+            <field name="code">521211 128</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_129" model="perencanaan.sbi">
+            <field name="name">Cetak Spanduk N</field>
+            <field name="code">521211 129</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_130" model="perencanaan.sbi">
+            <field name="name">Name Tag N</field>
+            <field name="code">521211 130</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_131" model="perencanaan.sbi">
+            <field name="name">Souvenir/Seminar Gift N</field>
+            <field name="code">521211 131</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_549" model="perencanaan.sbi">
+            <field name="name">Cendramata Narasumber/Moderator N</field>
+            <field name="code">521211 549</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_612" model="perencanaan.sbi">
+            <field name="name">Desain Sertifikat N</field>
+            <field name="code">521211 612</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_767" model="perencanaan.sbi">
+            <field name="name">Cetak Buku N</field>
+            <field name="code">521211 767</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_772" model="perencanaan.sbi">
+            <field name="name">Souvenir Lomba N</field>
+            <field name="code">521211 772</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_773" model="perencanaan.sbi">
+            <field name="name">Desain Cover N</field>
+            <field name="code">521211 773</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_1019" model="perencanaan.sbi">
+            <field name="name">Kelengkapan N</field>
+            <field name="code">521211 1019</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521115_132" model="perencanaan.sbi">
+            <field name="name">Honorarium Penyelenggaraan Kegiatan Pendidikan pada Lingkup Pendidikan Tinggi Y</field>
+            <field name="code">521115 132</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_133" model="perencanaan.sbi">
+            <field name="name">Pimpinan Pascasarjana Y</field>
+            <field name="code">521115 133</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_134" model="perencanaan.sbi">
+            <field name="name">Honor Direktur Pascasarjana N</field>
+            <field name="code">521115 134</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_135" model="perencanaan.sbi">
+            <field name="name">Honor Wakil Direktur Pascasarjana N</field>
+            <field name="code">521115 135</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_136" model="perencanaan.sbi">
+            <field name="name">Honor Ketua Program Studi Pascasarjana N</field>
+            <field name="code">521115 136</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_137" model="perencanaan.sbi">
+            <field name="name">Lembaga/Badan Y</field>
+            <field name="code">521115 137</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_138" model="perencanaan.sbi">
+            <field name="name">Honor Ketua Lembaga N</field>
+            <field name="code">521115 138</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_139" model="perencanaan.sbi">
+            <field name="name">Honor Sekretaris Lembaga N</field>
+            <field name="code">521115 139</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_140" model="perencanaan.sbi">
+            <field name="name">Pusat Y</field>
+            <field name="code">521115 140</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_141" model="perencanaan.sbi">
+            <field name="name">Honor Kepala Pusat N</field>
+            <field name="code">521115 141</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_142" model="perencanaan.sbi">
+            <field name="name">Sekretaris/Wakil/Koordinator Bidang N</field>
+            <field name="code">521115 142</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_143" model="perencanaan.sbi">
+            <field name="name">Unit Pelaksana/Penunjang Teknis Y</field>
+            <field name="code">521115 143</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_144" model="perencanaan.sbi">
+            <field name="name">Honor Kepala Unit N</field>
+            <field name="code">521115 144</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_145" model="perencanaan.sbi">
+            <field name="name">Sekretaris N</field>
+            <field name="code">521115 145</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_146" model="perencanaan.sbi">
+            <field name="name">Ma'had Y</field>
+            <field name="code">521115 146</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_147" model="perencanaan.sbi">
+            <field name="name">Direktur/Pimpinan/Kepala N</field>
+            <field name="code">521115 147</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_148" model="perencanaan.sbi">
+            <field name="name">Sekretaris/Wakil N</field>
+            <field name="code">521115 148</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_149" model="perencanaan.sbi">
+            <field name="name">Pengasuh/Muwajih N</field>
+            <field name="code">521115 149</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_150" model="perencanaan.sbi">
+            <field name="name">Koordinator Bidang N</field>
+            <field name="code">521115 150</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_151" model="perencanaan.sbi">
+            <field name="name">Program Studi Y</field>
+            <field name="code">521115 151</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_152" model="perencanaan.sbi">
+            <field name="name">Honor Ketua Prodi N</field>
+            <field name="code">521115 152</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_153" model="perencanaan.sbi">
+            <field name="name">Sekretaris N</field>
+            <field name="code">521115 153</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_154" model="perencanaan.sbi">
+            <field name="name">Satuan Pengawasan Internal Y</field>
+            <field name="code">521115 154</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_155" model="perencanaan.sbi">
+            <field name="name">Honor Kepala SPI N</field>
+            <field name="code">521115 155</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_156" model="perencanaan.sbi">
+            <field name="name">Honor Sekretaris SPI N</field>
+            <field name="code">521115 156</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_157" model="perencanaan.sbi">
+            <field name="name">Laboratorium/Bagian/Studio/Bengkel Y</field>
+            <field name="code">521115 157</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_158" model="perencanaan.sbi">
+            <field name="name">Kepala/Koordinator N</field>
+            <field name="code">521115 158</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_159" model="perencanaan.sbi">
+            <field name="name">Senat Y</field>
+            <field name="code">521115 159</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_160" model="perencanaan.sbi">
+            <field name="name">Honor Ketua Senat N</field>
+            <field name="code">521115 160</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_161" model="perencanaan.sbi">
+            <field name="name">Honor Sekretaris Senat N</field>
+            <field name="code">521115 161</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_162" model="perencanaan.sbi">
+            <field name="name">Honor Ketua Komisi Senat N</field>
+            <field name="code">521115 162</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_1016" model="perencanaan.sbi">
+            <field name="name">Honor Sidang Senat N</field>
+            <field name="code">521115 1016</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_1013" model="perencanaan.sbi">
+            <field name="name">Honorarium Pendamping/Pelatih Unit Kegiatan Mahasiswa Y</field>
+            <field name="code">521115 1013</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_1014" model="perencanaan.sbi">
+            <field name="name">Honor Pembina UKM N</field>
+            <field name="code">521115 1014</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521115_1015" model="perencanaan.sbi">
+            <field name="name">Honor Pelatih UKM N</field>
+            <field name="code">521115 1015</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521115"/>
+        </record>
+        <record id="sbi_521213_163" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen yang Menyelenggarakan Kegiatan Akademik dan Kemahasiswaan Y</field>
+            <field name="code">521213 163</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_164" model="perencanaan.sbi">
+            <field name="name">Program Sarjana Y</field>
+            <field name="code">521213 164</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_165" model="perencanaan.sbi">
+            <field name="name">Ujian Masuk Y</field>
+            <field name="code">521213 165</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_166" model="perencanaan.sbi">
+            <field name="name">Honorarium Penguji Al-Qur'an/Lisan N</field>
+            <field name="code">521213 166</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_167" model="perencanaan.sbi">
+            <field name="name">Honorarium Sidang Penentuan Kelulusan N</field>
+            <field name="code">521213 167</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_168" model="perencanaan.sbi">
+            <field name="name">Kelebihan Jam Mengajar Y</field>
+            <field name="code">521213 168</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_169" model="perencanaan.sbi">
+            <field name="name">Kelas Reguler Y</field>
+            <field name="code">521213 169</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_170" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Reg. Guru Besar (S1) N</field>
+            <field name="code">521213 170</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_171" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Reg. Lektor Kepala (S1) N</field>
+            <field name="code">521213 171</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_172" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Reg. Lektor (S1) N</field>
+            <field name="code">521213 172</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_173" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Reg. Asisten Ahli/DT Non PNS (S1) N</field>
+            <field name="code">521213 173</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+    </data>
+</odoo>

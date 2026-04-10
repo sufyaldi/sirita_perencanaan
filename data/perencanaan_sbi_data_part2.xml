@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="sbi_521213_174" model="perencanaan.sbi">
+            <field name="name">Kelas Internasional Y</field>
+            <field name="code">521213 174</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_175" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Inter. Guru Besar (S1) N</field>
+            <field name="code">521213 175</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_176" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Inter. Lektor Kepala (S1) N</field>
+            <field name="code">521213 176</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_177" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Inter. Lektor (S1) N</field>
+            <field name="code">521213 177</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_178" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Inter. Asisten Ahli/DT Non PNS (S1) N</field>
+            <field name="code">521213 178</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_179" model="perencanaan.sbi">
+            <field name="name">Honorarium Penguji Proposal Skripsi N</field>
+            <field name="code">521213 179</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_180" model="perencanaan.sbi">
+            <field name="name">Honorarium Pembimbing Skripsi N</field>
+            <field name="code">521213 180</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_183" model="perencanaan.sbi">
+            <field name="name">Honorarium Pembimbing Seminar Hasil Penelitian Skripsi N</field>
+            <field name="code">521213 183</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_184" model="perencanaan.sbi">
+            <field name="name">Penguji Y</field>
+            <field name="code">521213 184</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_185" model="perencanaan.sbi">
+            <field name="name">Honorarium Penguji Komprehensif N</field>
+            <field name="code">521213 185</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_186" model="perencanaan.sbi">
+            <field name="name">Honorarium Penguji Skripsi (Munakasah) N</field>
+            <field name="code">521213 186</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_187" model="perencanaan.sbi">
+            <field name="name">Honorarium Penasehat Akademik N</field>
+            <field name="code">521213 187</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_188" model="perencanaan.sbi">
+            <field name="name">Program Pascasarjana Y</field>
+            <field name="code">521213 188</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_189" model="perencanaan.sbi">
+            <field name="name">Honorarium Penguji Lisan Ujian Masuk S2 N</field>
+            <field name="code">521213 189</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_190" model="perencanaan.sbi">
+            <field name="name">Kelebihan Jam Mengajar Y</field>
+            <field name="code">521213 190</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_191" model="perencanaan.sbi">
+            <field name="name">Kelas Reguler S2 Y</field>
+            <field name="code">521213 191</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_192" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Reg. Guru Besar (S2) N</field>
+            <field name="code">521213 192</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_193" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Reg. Lektor Kepala (S2) N</field>
+            <field name="code">521213 193</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_194" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Reg. Lektor (S2) N</field>
+            <field name="code">521213 194</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_195" model="perencanaan.sbi">
+            <field name="name">Honorarium KJM Dosen Reg. Asisten Ahli/DT Non PNS (S2) N</field>
+            <field name="code">521213 195</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_196" model="perencanaan.sbi">
+            <field name="name">Kelas Internasional S2 Y</field>
+            <field name="code">521213 196</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_197" model="perencanaan.sbi">
+            <field name="name">Guru Besar N</field>
+            <field name="code">521213 197</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_198" model="perencanaan.sbi">
+            <field name="name">Lektor Kepala N</field>
+            <field name="code">521213 198</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_199" model="perencanaan.sbi">
+            <field name="name">Lektor N</field>
+            <field name="code">521213 199</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_200" model="perencanaan.sbi">
+            <field name="name">Asisten Ahli/DT Non PNS N</field>
+            <field name="code">521213 200</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_201" model="perencanaan.sbi">
+            <field name="name">Honorarium Ujian/Seminar Proposal Tesis N</field>
+            <field name="code">521213 201</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_202" model="perencanaan.sbi">
+            <field name="name">Honorarium Ujian/Seminar Hasil Penelitian Tesis N</field>
+            <field name="code">521213 202</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_203" model="perencanaan.sbi">
+            <field name="name">Ujian Kualifikasi/Komprehensif Y</field>
+            <field name="code">521213 203</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_204" model="perencanaan.sbi">
+            <field name="name">Ketua N</field>
+            <field name="code">521213 204</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_205" model="perencanaan.sbi">
+            <field name="name">Sekretaris N</field>
+            <field name="code">521213 205</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_206" model="perencanaan.sbi">
+            <field name="name">Penguji (Tulis/Lisan/Korektor) N</field>
+            <field name="code">521213 206</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_207" model="perencanaan.sbi">
+            <field name="name">Pembimbing Tesis Y</field>
+            <field name="code">521213 207</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_208" model="perencanaan.sbi">
+            <field name="name">Honorarium Pembimbing Tesis Utama/Ketua N</field>
+            <field name="code">521213 208</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_209" model="perencanaan.sbi">
+            <field name="name">Honorarium Pembimbing Tesis Pendamping N</field>
+            <field name="code">521213 209</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_210" model="perencanaan.sbi">
+            <field name="name">Honorarium Bagi Dosen dari Luar IAIN Parepare atau Non Dosen Y</field>
+            <field name="code">521213 210</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_211" model="perencanaan.sbi">
+            <field name="name">Honorarium Mengajar Dosen LB Program Sarjana (S1) Y</field>
+            <field name="code">521213 211</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_212" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Guru Besar (S1) N</field>
+            <field name="code">521213 212</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_213" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Lektor Kepala/Doktor (S1) N</field>
+            <field name="code">521213 213</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_214" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Lektor/Magister (S1) N</field>
+            <field name="code">521213 214</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_215" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Asisten Ahli (S1) N</field>
+            <field name="code">521213 215</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_216" model="perencanaan.sbi">
+            <field name="name">Honorarium Mengajar Dosen LB Program Pascasarjana S2 Y</field>
+            <field name="code">521213 216</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_217" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Guru Besar (S2) N</field>
+            <field name="code">521213 217</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_218" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Lektor Kepala/Doktor (S2) N</field>
+            <field name="code">521213 218</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_219" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Lektor/Magister (S2) N</field>
+            <field name="code">521213 219</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_220" model="perencanaan.sbi">
+            <field name="name">Honorarium Mengajar Kelas Internasional Y</field>
+            <field name="code">521213 220</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_221" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Inter. Guru Besar N</field>
+            <field name="code">521213 221</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_222" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Inter. Lektor Kepala/Doktor N</field>
+            <field name="code">521213 222</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_223" model="perencanaan.sbi">
+            <field name="name">Honorarium Dosen LB Inter. Lektor/Magister N</field>
+            <field name="code">521213 223</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_224" model="perencanaan.sbi">
+            <field name="name">Honorarium Mengajar Dosen Tamu Y</field>
+            <field name="code">521213 224</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_225" model="perencanaan.sbi">
+            <field name="name">Honorarium Mengajar Dosen Tamu Nasional N</field>
+            <field name="code">521213 225</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_226" model="perencanaan.sbi">
+            <field name="name">Honorarium Mengajar Dosen Tamu Internasional N</field>
+            <field name="code">521213 226</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_227" model="perencanaan.sbi">
+            <field name="name">Satuan Biaya Pendidikan, Akademik, dan Kemahasiswaan Lainnya Y</field>
+            <field name="code">521213 227</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_228" model="perencanaan.sbi">
+            <field name="name">Honorarium Praktik Pengalaman Lapangan (PPL) dan Kuliah Pengabdian Masyarakat (KPM) Y</field>
+            <field name="code">521213 228</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_229" model="perencanaan.sbi">
+            <field name="name">Pembimbing Lapangan N</field>
+            <field name="code">521213 229</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_230" model="perencanaan.sbi">
+            <field name="name">Pelaksana Kegiatan di Tempat Praktik Y</field>
+            <field name="code">521213 230</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_231" model="perencanaan.sbi">
+            <field name="name">Penanggung Jawab N</field>
+            <field name="code">521213 231</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_232" model="perencanaan.sbi">
+            <field name="name">Pembimbing/Guru Pamong N</field>
+            <field name="code">521213 232</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_233" model="perencanaan.sbi">
+            <field name="name">Pendamping Desa/Kecamatan N</field>
+            <field name="code">521213 233</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_234" model="perencanaan.sbi">
+            <field name="name">Honorarium Sidang Senat Y</field>
+            <field name="code">521213 234</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_236" model="perencanaan.sbi">
+            <field name="name">Honorarium Pendamping/Pelatih Unit Kegiatan Mahasiswa Y</field>
+            <field name="code">521213 236</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_237" model="perencanaan.sbi">
+            <field name="name">Pembina UKM N</field>
+            <field name="code">521213 237</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_238" model="perencanaan.sbi">
+            <field name="name">Pelatih UKM N</field>
+            <field name="code">521213 238</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_240" model="perencanaan.sbi">
+            <field name="name">Honorarium Pembimbing Program Kreativitas Mahasiswa Y</field>
+            <field name="code">521213 240</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_550" model="perencanaan.sbi">
+            <field name="name">Honorarium Penyelenggaraan Ujian dan Vakasi Y</field>
+            <field name="code">521213 550</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_551" model="perencanaan.sbi">
+            <field name="name">Program Sarjana (S1) Y</field>
+            <field name="code">521213 551</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_552" model="perencanaan.sbi">
+            <field name="name">Penyusun/Pembuat Bahan Ujian Masuk Jalur Mandiri N</field>
+            <field name="code">521213 552</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_553" model="perencanaan.sbi">
+            <field name="name">Pengawas Ujian Masuk Jalur Mandir N</field>
+            <field name="code">521213 553</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_554" model="perencanaan.sbi">
+            <field name="name">Pemeriksa Hasil Ujian Masuk Jalur Mandiri N</field>
+            <field name="code">521213 554</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_556" model="perencanaan.sbi">
+            <field name="name">Penguji Ujian Keterampilan pada Ujian Masuk N</field>
+            <field name="code">521213 556</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_557" model="perencanaan.sbi">
+            <field name="name">Program Sarjana (S2) Y</field>
+            <field name="code">521213 557</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_558" model="perencanaan.sbi">
+            <field name="name">Penyusun/Pembuat Bahan Ujian Masuk Jalur Mandiri N</field>
+            <field name="code">521213 558</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_559" model="perencanaan.sbi">
+            <field name="name">Pengawas Ujian Masuk Jalur Mandiri N</field>
+            <field name="code">521213 559</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_560" model="perencanaan.sbi">
+            <field name="name">Pemeriksa Hasil Ujian Masuk Jalur Mandiri N</field>
+            <field name="code">521213 560</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_561" model="perencanaan.sbi">
+            <field name="name">Penguji Tesis N</field>
+            <field name="code">521213 561</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_562" model="perencanaan.sbi">
+            <field name="name">Rohaniwan N</field>
+            <field name="code">521213 562</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_674" model="perencanaan.sbi">
+            <field name="name">Honorarium Penyelenggaraan Ujian Penerimaan CPNS/ PPPK, rekrutmen dosen LB, rekrutmen PPNPN/Tenaga Kontrak Y</field>
+            <field name="code">521213 674</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_675" model="perencanaan.sbi">
+            <field name="name">Honorarium Penguji Tes SKB N</field>
+            <field name="code">521213 675</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_676" model="perencanaan.sbi">
+            <field name="name">Honorarium Penguji Tes Wawancara N</field>
+            <field name="code">521213 676</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_677" model="perencanaan.sbi">
+            <field name="name">Honorarium Penguji Tes Psikotes N</field>
+            <field name="code">521213 677</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_235" model="perencanaan.sbi">
+            <field name="name">Honorarium Pembimbing/Pembina Tahfidz N</field>
+            <field name="code">521213 235</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_239" model="perencanaan.sbi">
+            <field name="name">Fasilitator/Tutor/Pembimbing Praktikum Non BKD dari luar Y</field>
+            <field name="code">521213 239</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_613" model="perencanaan.sbi">
+            <field name="name">Honor Fasilitator/ Tutor N</field>
+            <field name="code">521213 613</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_241" model="perencanaan.sbi">
+            <field name="name">Honorarium Tim Penyusunan Jurnal/Buletin/Majalah/Pengelola Website Y</field>
+            <field name="code">521213 241</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_242" model="perencanaan.sbi">
+            <field name="name">Honorarium Tim Penyusunan Jurnal Y</field>
+            <field name="code">521213 242</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_243" model="perencanaan.sbi">
+            <field name="name">Penanggung Jawab N</field>
+            <field name="code">521213 243</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_244" model="perencanaan.sbi">
+            <field name="name">Redaktur N</field>
+            <field name="code">521213 244</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_245" model="perencanaan.sbi">
+            <field name="name">Penyunting/Editor N</field>
+            <field name="code">521213 245</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_246" model="perencanaan.sbi">
+            <field name="name">Desain Grafis N</field>
+            <field name="code">521213 246</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_247" model="perencanaan.sbi">
+            <field name="name">Fotografer N</field>
+            <field name="code">521213 247</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_248" model="perencanaan.sbi">
+            <field name="name">Sekretariat N</field>
+            <field name="code">521213 248</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_249" model="perencanaan.sbi">
+            <field name="name">Pembuat Artikel N</field>
+            <field name="code">521213 249</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_250" model="perencanaan.sbi">
+            <field name="name">Mitra Bestari N</field>
+            <field name="code">521213 250</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_251" model="perencanaan.sbi">
+            <field name="name">Honorarium Tim Pengelola Website Y</field>
+            <field name="code">521213 251</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_252" model="perencanaan.sbi">
+            <field name="name">Penanggung Jawab N</field>
+            <field name="code">521213 252</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_253" model="perencanaan.sbi">
+            <field name="name">Redaktur N</field>
+            <field name="code">521213 253</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_254" model="perencanaan.sbi">
+            <field name="name">Editor N</field>
+            <field name="code">521213 254</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_255" model="perencanaan.sbi">
+            <field name="name">Web Admin N</field>
+            <field name="code">521213 255</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_256" model="perencanaan.sbi">
+            <field name="name">Web Developer N</field>
+            <field name="code">521213 256</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_257" model="perencanaan.sbi">
+            <field name="name">Pembuat Artikel N</field>
+            <field name="code">521213 257</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_258" model="perencanaan.sbi">
+            <field name="name">Honorarium Tim Pelaksana Kegiatan yang Ditetapkan oleh Rektor Y</field>
+            <field name="code">521213 258</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_259" model="perencanaan.sbi">
+            <field name="name">Pengarah N</field>
+            <field name="code">521213 259</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_260" model="perencanaan.sbi">
+            <field name="name">Penanggung Jawab N</field>
+            <field name="code">521213 260</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_261" model="perencanaan.sbi">
+            <field name="name">Ketua N</field>
+            <field name="code">521213 261</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_262" model="perencanaan.sbi">
+            <field name="name">Wakil Ketua N</field>
+            <field name="code">521213 262</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_263" model="perencanaan.sbi">
+            <field name="name">Sekretaris N</field>
+            <field name="code">521213 263</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_264" model="perencanaan.sbi">
+            <field name="name">Anggota N</field>
+            <field name="code">521213 264</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_265" model="perencanaan.sbi">
+            <field name="name">Penunjang Penelitian Y</field>
+            <field name="code">521213 265</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_266" model="perencanaan.sbi">
+            <field name="name">Honorarium Penunjang Penelitian Y</field>
+            <field name="code">521213 266</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_267" model="perencanaan.sbi">
+            <field name="name">Pembantu Peneliti N</field>
+            <field name="code">521213 267</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_268" model="perencanaan.sbi">
+            <field name="name">Koordinator Peneliti N</field>
+            <field name="code">521213 268</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_269" model="perencanaan.sbi">
+            <field name="name">sekretariat Peneliti N</field>
+            <field name="code">521213 269</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_270" model="perencanaan.sbi">
+            <field name="name">Pengolah Data N</field>
+            <field name="code">521213 270</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_271" model="perencanaan.sbi">
+            <field name="name">Petugas Survey N</field>
+            <field name="code">521213 271</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_272" model="perencanaan.sbi">
+            <field name="name">Pembantu Lapangan N</field>
+            <field name="code">521213 272</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_273" model="perencanaan.sbi">
+            <field name="name">Honorarium Komite Penilaian dan/atau Reviewer Proposal dan Komite Penilaian dan/atau Reviewer Keluaran Penelitian Y</field>
+            <field name="code">521213 273</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_274" model="perencanaan.sbi">
+            <field name="name">Honorarium Komite Penilaian/ Reviewer Proposal N</field>
+            <field name="code">521213 274</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_277" model="perencanaan.sbi">
+            <field name="name">Honorarium Komite Penilaian/ Reviewer Keluaran Penelitian (Antara) N</field>
+            <field name="code">521213 277</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_521213_280" model="perencanaan.sbi">
+            <field name="name">Honorarium Komite Penilaian/ Reviewer Keluaran Penelitian (Akhir) N</field>
+            <field name="code">521213 280</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521213"/>
+        </record>
+        <record id="sbi_524114_283" model="perencanaan.sbi">
+            <field name="name">Rapat/Pertemuan Diluar Kantor Y</field>
+            <field name="code">524114 283</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_284" model="perencanaan.sbi">
+            <field name="name">Pejabat Eselon I dan II Y</field>
+            <field name="code">524114 284</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_285" model="perencanaan.sbi">
+            <field name="name">Paket Halfday N</field>
+            <field name="code">524114 285</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_286" model="perencanaan.sbi">
+            <field name="name">Paket Fullday N</field>
+            <field name="code">524114 286</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_287" model="perencanaan.sbi">
+            <field name="name">Paket Fullboard N</field>
+            <field name="code">524114 287</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_898" model="perencanaan.sbi">
+            <field name="name">Transportasi N</field>
+            <field name="code">524114 898</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_288" model="perencanaan.sbi">
+            <field name="name">Pejabat Eselon III Ke Bawah Y</field>
+            <field name="code">524114 288</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_289" model="perencanaan.sbi">
+            <field name="name">Paket Halfday N</field>
+            <field name="code">524114 289</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_290" model="perencanaan.sbi">
+            <field name="name">Paket Fullday N</field>
+            <field name="code">524114 290</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_291" model="perencanaan.sbi">
+            <field name="name">Paket Fullboard N</field>
+            <field name="code">524114 291</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_899" model="perencanaan.sbi">
+            <field name="name">Transportasi N</field>
+            <field name="code">524114 899</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_903" model="perencanaan.sbi">
+            <field name="name">Penginapan N</field>
+            <field name="code">524114 903</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_292" model="perencanaan.sbi">
+            <field name="name">Uang Harian Y</field>
+            <field name="code">524114 292</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_293" model="perencanaan.sbi">
+            <field name="name">Uang Harian Fullboard luar Kota N</field>
+            <field name="code">524114 293</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_294" model="perencanaan.sbi">
+            <field name="name">Uang Harian Fullboard dalam Kota N</field>
+            <field name="code">524114 294</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_295" model="perencanaan.sbi">
+            <field name="name">Uang Harian Fullday N</field>
+            <field name="code">524114 295</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_524114_917" model="perencanaan.sbi">
+            <field name="name">Transportasi N</field>
+            <field name="code">524114 917</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_524114"/>
+        </record>
+        <record id="sbi_521111_296" model="perencanaan.sbi">
+            <field name="name">Keperluan Sehari-hari Perkantoran Y</field>
+            <field name="code">521111 296</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_297" model="perencanaan.sbi">
+            <field name="name">Alat Tulis Kantor Y</field>
+            <field name="code">521111 297</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_298" model="perencanaan.sbi">
+            <field name="name">Binder Forte Ordener F4-75 N</field>
+            <field name="code">521111 298</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_299" model="perencanaan.sbi">
+            <field name="name">Binder Forte Ordener F4-50 N</field>
+            <field name="code">521111 299</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_300" model="perencanaan.sbi">
+            <field name="name">Box File Kiniko Kinko N</field>
+            <field name="code">521111 300</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_301" model="perencanaan.sbi">
+            <field name="name">Map Business File N</field>
+            <field name="code">521111 301</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_302" model="perencanaan.sbi">
+            <field name="name">Map Sea Gull N</field>
+            <field name="code">521111 302</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_303" model="perencanaan.sbi">
+            <field name="name">Kertas Jilid N</field>
+            <field name="code">521111 303</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_304" model="perencanaan.sbi">
+            <field name="name">Plastik N</field>
+            <field name="code">521111 304</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_305" model="perencanaan.sbi">
+            <field name="name">Pelubang Kertas Combo cb 40 N</field>
+            <field name="code">521111 305</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_306" model="perencanaan.sbi">
+            <field name="name">Pelubang Kertas Joyco No.85 B N</field>
+            <field name="code">521111 306</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_307" model="perencanaan.sbi">
+            <field name="name">SDI Stapler No. 10 N</field>
+            <field name="code">521111 307</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_308" model="perencanaan.sbi">
+            <field name="name">Binder Clips V-Tech No. 260 N</field>
+            <field name="code">521111 308</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_309" model="perencanaan.sbi">
+            <field name="name">Binder Clips V-Tech No. 155 N</field>
+            <field name="code">521111 309</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_310" model="perencanaan.sbi">
+            <field name="name">Binder Clips V-Tech No. 111 N</field>
+            <field name="code">521111 310</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_311" model="perencanaan.sbi">
+            <field name="name">Binder Clips Warna N</field>
+            <field name="code">521111 311</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_312" model="perencanaan.sbi">
+            <field name="name">Binder Clips V-Tech No. 200 N</field>
+            <field name="code">521111 312</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_313" model="perencanaan.sbi">
+            <field name="name">Double Tape 1/2 N</field>
+            <field name="code">521111 313</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_314" model="perencanaan.sbi">
+            <field name="name">Double Tape 1 N</field>
+            <field name="code">521111 314</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_315" model="perencanaan.sbi">
+            <field name="name">Double Tape 2 N</field>
+            <field name="code">521111 315</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_316" model="perencanaan.sbi">
+            <field name="name">Staples Kecil N</field>
+            <field name="code">521111 316</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_317" model="perencanaan.sbi">
+            <field name="name">Staples Besar N</field>
+            <field name="code">521111 317</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_318" model="perencanaan.sbi">
+            <field name="name">Lem Fox Sachet 400 grm N</field>
+            <field name="code">521111 318</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_319" model="perencanaan.sbi">
+            <field name="name">Lem Fox Botol 150 Gr N</field>
+            <field name="code">521111 319</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_320" model="perencanaan.sbi">
+            <field name="name">Lakban Bening Max 45 x 70 N</field>
+            <field name="code">521111 320</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_321" model="perencanaan.sbi">
+            <field name="name">Lakban Hitam Hamchi 1,5 N</field>
+            <field name="code">521111 321</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_322" model="perencanaan.sbi">
+            <field name="name">Lakban Bening Sinomas N</field>
+            <field name="code">521111 322</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_323" model="perencanaan.sbi">
+            <field name="name">Isolasi Bening 0,5 N</field>
+            <field name="code">521111 323</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_324" model="perencanaan.sbi">
+            <field name="name">Lakban Bening Max 0,5 N</field>
+            <field name="code">521111 324</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_325" model="perencanaan.sbi">
+            <field name="name">Kertas A4S 70 Gram SIDU N</field>
+            <field name="code">521111 325</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_326" model="perencanaan.sbi">
+            <field name="name">Kertas A4S 80 Gram SIDU N</field>
+            <field name="code">521111 326</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_327" model="perencanaan.sbi">
+            <field name="name">Kertas Polio Bergaris N</field>
+            <field name="code">521111 327</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_328" model="perencanaan.sbi">
+            <field name="name">Kertas A3 70 Gram N</field>
+            <field name="code">521111 328</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_329" model="perencanaan.sbi">
+            <field name="name">Kertas A3 80 Gram N</field>
+            <field name="code">521111 329</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_330" model="perencanaan.sbi">
+            <field name="name">Kertas A4 70 Gram N</field>
+            <field name="code">521111 330</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_331" model="perencanaan.sbi">
+            <field name="name">Kertas A4 80 Gram N</field>
+            <field name="code">521111 331</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_332" model="perencanaan.sbi">
+            <field name="name">Kertas F4 70 Gram N</field>
+            <field name="code">521111 332</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_333" model="perencanaan.sbi">
+            <field name="name">Kertas F4 80 Gram N</field>
+            <field name="code">521111 333</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_334" model="perencanaan.sbi">
+            <field name="name">Kertas Sertifikat Linen Putih N</field>
+            <field name="code">521111 334</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_335" model="perencanaan.sbi">
+            <field name="name">Kertas Foto N</field>
+            <field name="code">521111 335</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_336" model="perencanaan.sbi">
+            <field name="name">Kertas Stiker N</field>
+            <field name="code">521111 336</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_337" model="perencanaan.sbi">
+            <field name="name">Kertas Karton N</field>
+            <field name="code">521111 337</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_338" model="perencanaan.sbi">
+            <field name="name">Kertas/Plastik Laminating N</field>
+            <field name="code">521111 338</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_339" model="perencanaan.sbi">
+            <field name="name">Baterey Panasonic NEO 9V N</field>
+            <field name="code">521111 339</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_340" model="perencanaan.sbi">
+            <field name="name">Baterey Panasonic Prima AA N</field>
+            <field name="code">521111 340</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_341" model="perencanaan.sbi">
+            <field name="name">Baterey ABC Alkaline AAA N</field>
+            <field name="code">521111 341</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_342" model="perencanaan.sbi">
+            <field name="name">Cutter Art Knives N</field>
+            <field name="code">521111 342</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_343" model="perencanaan.sbi">
+            <field name="name">Cutter Kenko L-500 N</field>
+            <field name="code">521111 343</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_344" model="perencanaan.sbi">
+            <field name="name">Trigonal Clips N</field>
+            <field name="code">521111 344</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_345" model="perencanaan.sbi">
+            <field name="name">Staples Etona No.10 N</field>
+            <field name="code">521111 345</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_346" model="perencanaan.sbi">
+            <field name="name">Staples Etona No. 3 N</field>
+            <field name="code">521111 346</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_347" model="perencanaan.sbi">
+            <field name="name">Ballpoint Pilot Balliner N</field>
+            <field name="code">521111 347</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_348" model="perencanaan.sbi">
+            <field name="name">Ballpoint Tinta Biasa N</field>
+            <field name="code">521111 348</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_349" model="perencanaan.sbi">
+            <field name="name">Ballpoint Tinta Cair N</field>
+            <field name="code">521111 349</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_350" model="perencanaan.sbi">
+            <field name="name">Pensil 2B N</field>
+            <field name="code">521111 350</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_351" model="perencanaan.sbi">
+            <field name="name">Pensil HB N</field>
+            <field name="code">521111 351</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_352" model="perencanaan.sbi">
+            <field name="name">Penghapus Pensil N</field>
+            <field name="code">521111 352</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_353" model="perencanaan.sbi">
+            <field name="name">Serutan Pensil N</field>
+            <field name="code">521111 353</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_354" model="perencanaan.sbi">
+            <field name="name">Label Nama N</field>
+            <field name="code">521111 354</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_355" model="perencanaan.sbi">
+            <field name="name">Catridge 810 Canon Black N</field>
+            <field name="code">521111 355</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_356" model="perencanaan.sbi">
+            <field name="name">Spidol Snowman PW N</field>
+            <field name="code">521111 356</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_357" model="perencanaan.sbi">
+            <field name="name">Spidol OPF Fine Hitam N</field>
+            <field name="code">521111 357</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_358" model="perencanaan.sbi">
+            <field name="name">Spidol Whiteboard (Permanen) N</field>
+            <field name="code">521111 358</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_359" model="perencanaan.sbi">
+            <field name="name">Spidol Whiteboard (Non Permanen) N</field>
+            <field name="code">521111 359</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_360" model="perencanaan.sbi">
+            <field name="name">Epson Genuine 664 Black N</field>
+            <field name="code">521111 360</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+    </data>
+</odoo>

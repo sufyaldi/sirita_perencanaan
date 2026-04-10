@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Sample Budget Plan 2025 -->
+        <record id="demo_perencanaan_2025" model="sirita.perencanaan.anggaran">
+            <field name="name">Pagu Indikatif Tahun Anggaran 2025 (Sampel)</field>
+            <field name="year">2025</field>
+            <field name="type">1</field>
+            <field name="state">draft</field>
+        </record>
+
+        <!-- Sample Item 1: Honorarium -->
+        <record id="demo_item_1" model="sirita.perencanaan.item">
+            <field name="parent_id" ref="demo_perencanaan_2025"/>
+            <field name="name">Honorarium Narasumber Seminar Internasional</field>
+            <field name="volume">1</field>
+            <field name="unit_price">1500000</field>
+        </record>
+
+        <!-- Sample Item 2: ATK -->
+        <record id="demo_item_2" model="sirita.perencanaan.item">
+            <field name="parent_id" ref="demo_perencanaan_2025"/>
+            <field name="name">Belanja Alat Tulis Kantor (Kertas A4)</field>
+            <field name="volume">50</field>
+            <field name="unit_price">55000</field>
+        </record>
+    </data>
+</odoo>

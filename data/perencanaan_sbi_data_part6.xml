@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="sbi_521211_1029" model="perencanaan.sbi">
+            <field name="name">Buku N</field>
+            <field name="code">521211 1029</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_1030" model="perencanaan.sbi">
+            <field name="name">Balon N</field>
+            <field name="code">521211 1030</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521219_1031" model="perencanaan.sbi">
+            <field name="name">Desain N</field>
+            <field name="code">521219 1031</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521219"/>
+        </record>
+    </data>
+</odoo>

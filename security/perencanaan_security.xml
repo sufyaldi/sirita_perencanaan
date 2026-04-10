@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- KATEGORI KEAMANAN SIRITA PERENCANAAN -->
+        <record id="module_category_sirita_perencanaan" model="ir.module.category">
+            <field name="name">SIRITA: Perencanaan Anggaran</field>
+            <field name="description">Pengaturan hak akses modul perencanaan anggaran satker</field>
+            <field name="sequence">5</field>
+        </record>
+
+        <!-- GRUP: USER UNIT KERJA -->
+        <record id="group_perencanaan_user" model="res.groups">
+            <field name="name">User Unit Kerja (Pengusul)</field>
+            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+        <!-- GRUP: SPI (REVIU) -->
+        <record id="group_perencanaan_spi" model="res.groups">
+            <field name="name">SPI (Reviu SPI)</field>
+            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+            <field name="implied_ids" eval="[(4, ref('group_perencanaan_user'))]"/>
+        </record>
+
+        <!-- GRUP: LPM (REVIU) -->
+        <record id="group_perencanaan_lpm" model="res.groups">
+            <field name="name">LPM (Reviu LPM)</field>
+            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+            <field name="implied_ids" eval="[(4, ref('group_perencanaan_user'))]"/>
+        </record>
+
+        <!-- GRUP: MANAGER PERENCANAAN (ADMIN/PUSAT) -->
+        <record id="group_perencanaan_manager" model="res.groups">
+            <field name="name">Manager Perencanaan (Admin Pusat)</field>
+            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+            <field name="implied_ids" eval="[(4, ref('group_perencanaan_spi')), (4, ref('group_perencanaan_lpm'))]"/>
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+        </record>
+
+        <!-- RECORD RULE: USER UNIT KERJA (SEKAT ANTAR UNIT) -->
+        <record id="rule_perencanaan_user_own_department" model="ir.rule">
+            <field name="name">User: Hanya Lihat Usulan Unit Sendiri</field>
+            <field name="model_id" ref="model_sirita_perencanaan_anggaran"/>
+            <field name="groups" eval="[(4, ref('group_perencanaan_user'))]"/>
+            <field name="domain_force">[('department_id', '=', user.employee_id.department_id.id)]</field>
+        </record>
+
+        <!-- RECORD RULE: SPI/LPM/MANAGER (LIHAT SEMUA UNIT) -->
+        <record id="rule_perencanaan_manager_all_department" model="ir.rule">
+            <field name="name">Manager/SPI/LPM: Lihat Seluruh Unit Satker</field>
+            <field name="model_id" ref="model_sirita_perencanaan_anggaran"/>
+            <field name="groups" eval="[(4, ref('group_perencanaan_spi')), (4, ref('group_perencanaan_lpm')), (4, ref('group_perencanaan_manager'))]"/>
+            <field name="domain_force">[(1, '=', 1)]</field>
+        </record>
+    </data>
+</odoo>

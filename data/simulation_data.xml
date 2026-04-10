@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- 1. DEPARTEMEN / UNIT KERJA -->
+        <record id="dept_lpm" model="hr.department">
+            <field name="name">Lembaga Penjaminan Mutu (LPM)</field>
+        </record>
+        <record id="dept_spi" model="hr.department">
+            <field name="name">Satuan Pengawas Internal (SPI)</field>
+        </record>
+        <record id="dept_tipd" model="hr.department">
+            <field name="name">TIPD (Teknologi Informasi &amp; Pangkalan Data)</field>
+        </record>
+
+        <!-- 2. USERS SIMULASI -->
+        <!-- User LPM -->
+        <record id="user_admin_lpm" model="res.users">
+            <field name="name">Admin LPM</field>
+            <field name="login">admin_lpm</field>
+            <field name="password">admin</field>
+            <field name="groups_id" eval="[(6, 0, [ref('sirita_perencanaan.group_perencanaan_lpm'), ref('base.group_user')])]"/>
+        </record>
+
+        <!-- User SPI -->
+        <record id="user_admin_spi" model="res.users">
+            <field name="name">Admin SPI</field>
+            <field name="login">admin_spi</field>
+            <field name="password">admin</field>
+            <field name="groups_id" eval="[(6, 0, [ref('sirita_perencanaan.group_perencanaan_spi'), ref('base.group_user')])]"/>
+        </record>
+
+        <!-- Operator TIPD -->
+        <record id="user_operator_tipd" model="res.users">
+            <field name="name">Operator TIPD</field>
+            <field name="login">operator_tipd</field>
+            <field name="password">admin</field>
+            <field name="groups_id" eval="[(6, 0, [ref('sirita_perencanaan.group_perencanaan_user'), ref('base.group_user')])]"/>
+        </record>
+
+        <!-- 3. EMPLOYEES (PENTING UNTUK RECORD RULES) -->
+        <record id="emp_lpm" model="hr.employee">
+            <field name="name">Petugas LPM</field>
+            <field name="user_id" ref="user_admin_lpm"/>
+            <field name="department_id" ref="dept_lpm"/>
+        </record>
+
+        <record id="emp_spi" model="hr.employee">
+            <field name="name">Audit SPI</field>
+            <field name="user_id" ref="user_admin_spi"/>
+            <field name="department_id" ref="dept_spi"/>
+        </record>
+
+        <record id="emp_tipd" model="hr.employee">
+            <field name="name">Admin TIPD</field>
+            <field name="user_id" ref="user_operator_tipd"/>
+            <field name="department_id" ref="dept_tipd"/>
+        </record>
+    </data>
+</odoo>

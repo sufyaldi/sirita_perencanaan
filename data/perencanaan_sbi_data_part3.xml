@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="sbi_521111_361" model="perencanaan.sbi">
+            <field name="name">Epson Genuine 664 Cyan N</field>
+            <field name="code">521111 361</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_362" model="perencanaan.sbi">
+            <field name="name">Epson Genuine 664 Magenta N</field>
+            <field name="code">521111 362</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_363" model="perencanaan.sbi">
+            <field name="name">Epson Genuine 664 Yellow N</field>
+            <field name="code">521111 363</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_364" model="perencanaan.sbi">
+            <field name="name">Tinta Printer HP Laserjet N</field>
+            <field name="code">521111 364</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_365" model="perencanaan.sbi">
+            <field name="name">Tinta Printer Data Print Colour N</field>
+            <field name="code">521111 365</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_366" model="perencanaan.sbi">
+            <field name="name">Tinta Printer Data Print Black N</field>
+            <field name="code">521111 366</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_367" model="perencanaan.sbi">
+            <field name="name">Stempel Biasa N</field>
+            <field name="code">521111 367</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_368" model="perencanaan.sbi">
+            <field name="name">Stempel Flash/Warna N</field>
+            <field name="code">521111 368</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_369" model="perencanaan.sbi">
+            <field name="name">Tinta Stempel N</field>
+            <field name="code">521111 369</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_370" model="perencanaan.sbi">
+            <field name="name">Bantel Stempel N</field>
+            <field name="code">521111 370</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_371" model="perencanaan.sbi">
+            <field name="name">Map Batik N</field>
+            <field name="code">521111 371</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_372" model="perencanaan.sbi">
+            <field name="name">Map Plastik N</field>
+            <field name="code">521111 372</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_373" model="perencanaan.sbi">
+            <field name="name">Map Kertas N</field>
+            <field name="code">521111 373</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_374" model="perencanaan.sbi">
+            <field name="name">Stabilo Boss N</field>
+            <field name="code">521111 374</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_375" model="perencanaan.sbi">
+            <field name="name">Tape Dispenser Vitro V-132 N</field>
+            <field name="code">521111 375</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_376" model="perencanaan.sbi">
+            <field name="name">Toner Foto Cofy Steady 1000 GR N</field>
+            <field name="code">521111 376</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_377" model="perencanaan.sbi">
+            <field name="name">Gunting M-2000 Besar N</field>
+            <field name="code">521111 377</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_378" model="perencanaan.sbi">
+            <field name="name">Gunting Exsis SDG N</field>
+            <field name="code">521111 378</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_379" model="perencanaan.sbi">
+            <field name="name">Amplop Kotak N</field>
+            <field name="code">521111 379</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_380" model="perencanaan.sbi">
+            <field name="name">Amplop Panjang N</field>
+            <field name="code">521111 380</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_381" model="perencanaan.sbi">
+            <field name="name">Amplop Coklat F4 N</field>
+            <field name="code">521111 381</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_382" model="perencanaan.sbi">
+            <field name="name">Kuitansi Kecil N</field>
+            <field name="code">521111 382</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_383" model="perencanaan.sbi">
+            <field name="name">Flashdisk 16 G N</field>
+            <field name="code">521111 383</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_384" model="perencanaan.sbi">
+            <field name="name">Flashdisk 32 G N</field>
+            <field name="code">521111 384</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_385" model="perencanaan.sbi">
+            <field name="name">Penggaris Biasa 30 cm N</field>
+            <field name="code">521111 385</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_386" model="perencanaan.sbi">
+            <field name="name">Pengaris Besi 30 cm N</field>
+            <field name="code">521111 386</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_387" model="perencanaan.sbi">
+            <field name="name">Penggaris Biasa 60 cm N</field>
+            <field name="code">521111 387</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_388" model="perencanaan.sbi">
+            <field name="name">Penggaris Besi 60 cm N</field>
+            <field name="code">521111 388</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_389" model="perencanaan.sbi">
+            <field name="name">Buku Tamu/Registrasi N</field>
+            <field name="code">521111 389</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_390" model="perencanaan.sbi">
+            <field name="name">Buku Surat Masuk - Keluar N</field>
+            <field name="code">521111 390</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_391" model="perencanaan.sbi">
+            <field name="name">Tipe X N</field>
+            <field name="code">521111 391</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_392" model="perencanaan.sbi">
+            <field name="name">Sticky Note (Mini) N</field>
+            <field name="code">521111 392</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_393" model="perencanaan.sbi">
+            <field name="name">Sticky Note (Kotak) N</field>
+            <field name="code">521111 393</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_394" model="perencanaan.sbi">
+            <field name="name">Kenko Sticky Note (Plastik) N</field>
+            <field name="code">521111 394</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_395" model="perencanaan.sbi">
+            <field name="name">Mouse N</field>
+            <field name="code">521111 395</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_396" model="perencanaan.sbi">
+            <field name="name">Goody Bag N</field>
+            <field name="code">521111 396</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_397" model="perencanaan.sbi">
+            <field name="name">Plastik Name Tag N</field>
+            <field name="code">521111 397</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_636" model="perencanaan.sbi">
+            <field name="name">Tissue N</field>
+            <field name="code">521111 636</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_663" model="perencanaan.sbi">
+            <field name="name">Materai N</field>
+            <field name="code">521111 663</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_690" model="perencanaan.sbi">
+            <field name="name">Rak N</field>
+            <field name="code">521111 690</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_748" model="perencanaan.sbi">
+            <field name="name">Map Fakultas N</field>
+            <field name="code">521111 748</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_398" model="perencanaan.sbi">
+            <field name="name">Barang Cetak/Plakat/Piala Y</field>
+            <field name="code">521111 398</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_399" model="perencanaan.sbi">
+            <field name="name">Spanduk/Banner/Baliho N</field>
+            <field name="code">521111 399</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_400" model="perencanaan.sbi">
+            <field name="name">X-Banner N</field>
+            <field name="code">521111 400</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_401" model="perencanaan.sbi">
+            <field name="name">Roll Banner N</field>
+            <field name="code">521111 401</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_402" model="perencanaan.sbi">
+            <field name="name">Foto Copy N</field>
+            <field name="code">521111 402</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_403" model="perencanaan.sbi">
+            <field name="name">Print (Black) Ukuran A4/FA N</field>
+            <field name="code">521111 403</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_404" model="perencanaan.sbi">
+            <field name="name">Print (Color) Ukuran A4/FA N</field>
+            <field name="code">521111 404</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_405" model="perencanaan.sbi">
+            <field name="name">Print (Black) Ukuran A3 N</field>
+            <field name="code">521111 405</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_406" model="perencanaan.sbi">
+            <field name="name">Print (Color) Ukuran A3 N</field>
+            <field name="code">521111 406</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_407" model="perencanaan.sbi">
+            <field name="name">Plakat Biasa N</field>
+            <field name="code">521111 407</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_408" model="perencanaan.sbi">
+            <field name="name">Plakat Akrilik N</field>
+            <field name="code">521111 408</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_409" model="perencanaan.sbi">
+            <field name="name">Piala Biasa N</field>
+            <field name="code">521111 409</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_410" model="perencanaan.sbi">
+            <field name="name">Piala Bergilir N</field>
+            <field name="code">521111 410</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_679" model="perencanaan.sbi">
+            <field name="name">Karangan Bunga N</field>
+            <field name="code">521111 679</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_745" model="perencanaan.sbi">
+            <field name="name">Papan Landasan Spanduk N</field>
+            <field name="code">521111 745</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_805" model="perencanaan.sbi">
+            <field name="name">Cendramata N</field>
+            <field name="code">521111 805</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_816" model="perencanaan.sbi">
+            <field name="name">Bingkai N</field>
+            <field name="code">521111 816</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_818" model="perencanaan.sbi">
+            <field name="name">Penjilidan dan Penggandaan Laporan N</field>
+            <field name="code">521111 818</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_889" model="perencanaan.sbi">
+            <field name="name">Cetak Buku N</field>
+            <field name="code">521111 889</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_900" model="perencanaan.sbi">
+            <field name="name">Sertifikat N</field>
+            <field name="code">521111 900</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_901" model="perencanaan.sbi">
+            <field name="name">Jilid N</field>
+            <field name="code">521111 901</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_1000" model="perencanaan.sbi">
+            <field name="name">Penjilidan N</field>
+            <field name="code">521111 1000</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_1003" model="perencanaan.sbi">
+            <field name="name">Cetak N</field>
+            <field name="code">521111 1003</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_1008" model="perencanaan.sbi">
+            <field name="name">Papan N</field>
+            <field name="code">521111 1008</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_1017" model="perencanaan.sbi">
+            <field name="name">Pengadaan N</field>
+            <field name="code">521111 1017</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521211_411" model="perencanaan.sbi">
+            <field name="name">Alat-Alat Rumah Tangga/Perlengkapan Kantor (Sapu, Tempat Sampah, Pengharum Ruangan, Jam Dinding, Bohlan, Tissu, Cairan Pembersih Lantai dan Sejenisnya) N</field>
+            <field name="code">521211 411</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_412" model="perencanaan.sbi">
+            <field name="name">Air Mineral dan Jamuan Tamu Y</field>
+            <field name="code">521211 412</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_413" model="perencanaan.sbi">
+            <field name="name">Air Gelas N</field>
+            <field name="code">521211 413</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_414" model="perencanaan.sbi">
+            <field name="name">Air Botol Ukuran Mini (330 Ml) N</field>
+            <field name="code">521211 414</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_415" model="perencanaan.sbi">
+            <field name="name">Air Botol Ukuran Sedang (600 Ml N</field>
+            <field name="code">521211 415</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_416" model="perencanaan.sbi">
+            <field name="name">Air Botol Ukuran Besar (1500 Ml) N</field>
+            <field name="code">521211 416</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_417" model="perencanaan.sbi">
+            <field name="name">Air Galon N</field>
+            <field name="code">521211 417</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_418" model="perencanaan.sbi">
+            <field name="name">Air Galon (Isi Ulang) N</field>
+            <field name="code">521211 418</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_419" model="perencanaan.sbi">
+            <field name="name">Makanan/Minuman Jamuan Tamu N</field>
+            <field name="code">521211 419</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_420" model="perencanaan.sbi">
+            <field name="name">Langganan Surat Kabar/ Berita/Majalah (Cetak/Digital) N</field>
+            <field name="code">521211 420</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521111_563" model="perencanaan.sbi">
+            <field name="name">Air Mineral dan Jamuan Tamu Y</field>
+            <field name="code">521111 563</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_564" model="perencanaan.sbi">
+            <field name="name">Air Gelas N</field>
+            <field name="code">521111 564</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_565" model="perencanaan.sbi">
+            <field name="name">Air Botol Ukuran Mini (330 Ml) N</field>
+            <field name="code">521111 565</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_566" model="perencanaan.sbi">
+            <field name="name">Air Botol Ukuran Sedang (600 Ml) N</field>
+            <field name="code">521111 566</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_567" model="perencanaan.sbi">
+            <field name="name">Air Botol Ukuran Besar (1500 Ml) N</field>
+            <field name="code">521111 567</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_568" model="perencanaan.sbi">
+            <field name="name">Air Galon N</field>
+            <field name="code">521111 568</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_569" model="perencanaan.sbi">
+            <field name="name">Air Galon (Isi Ulang) N</field>
+            <field name="code">521111 569</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_570" model="perencanaan.sbi">
+            <field name="name">Makanan/Minuman Jamuan Tamu N</field>
+            <field name="code">521111 570</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_730" model="perencanaan.sbi">
+            <field name="name">Pengharum Ruangan N</field>
+            <field name="code">521111 730</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_750" model="perencanaan.sbi">
+            <field name="name">Alat TIPD Y</field>
+            <field name="code">521111 750</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_751" model="perencanaan.sbi">
+            <field name="name">Processor Desktop Intel N</field>
+            <field name="code">521111 751</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_752" model="perencanaan.sbi">
+            <field name="name">Motherboard intel Desktop support Core N</field>
+            <field name="code">521111 752</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_753" model="perencanaan.sbi">
+            <field name="name">Kabel UTP CAT 5E N</field>
+            <field name="code">521111 753</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_754" model="perencanaan.sbi">
+            <field name="name">Tang Krimping N</field>
+            <field name="code">521111 754</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_755" model="perencanaan.sbi">
+            <field name="name">Hardisk SSD SATA N</field>
+            <field name="code">521111 755</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_756" model="perencanaan.sbi">
+            <field name="name">Switch 10/100/1000 8 Port N</field>
+            <field name="code">521111 756</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_757" model="perencanaan.sbi">
+            <field name="name">Zola Wireless Air Duster Blower N</field>
+            <field name="code">521111 757</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_758" model="perencanaan.sbi">
+            <field name="name">Ram PC Desktop DDR N</field>
+            <field name="code">521111 758</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_759" model="perencanaan.sbi">
+            <field name="name">Mixer Audio Wisdom ES6 N</field>
+            <field name="code">521111 759</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_760" model="perencanaan.sbi">
+            <field name="name">Microphone USB N</field>
+            <field name="code">521111 760</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_761" model="perencanaan.sbi">
+            <field name="name">Paket Green Screen N</field>
+            <field name="code">521111 761</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_762" model="perencanaan.sbi">
+            <field name="name">Wireless Akses Point N</field>
+            <field name="code">521111 762</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_763" model="perencanaan.sbi">
+            <field name="name">Konektor Rj 45 Cat 5E N</field>
+            <field name="code">521111 763</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_764" model="perencanaan.sbi">
+            <field name="name">Partisi Ruangan N</field>
+            <field name="code">521111 764</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_765" model="perencanaan.sbi">
+            <field name="name">Lighting N</field>
+            <field name="code">521111 765</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_845" model="perencanaan.sbi">
+            <field name="name">Obat-obatan N</field>
+            <field name="code">521111 845</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521111_989" model="perencanaan.sbi">
+            <field name="name">Langganan N</field>
+            <field name="code">521111 989</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521111"/>
+        </record>
+        <record id="sbi_521211_431" model="perencanaan.sbi">
+            <field name="name">Keperluan Sehari-hari Perkantoran Y</field>
+            <field name="code">521211 431</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_432" model="perencanaan.sbi">
+            <field name="name">Alat Tulis Kantor Y</field>
+            <field name="code">521211 432</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_433" model="perencanaan.sbi">
+            <field name="name">Binder Forte Ordener F4-75 N</field>
+            <field name="code">521211 433</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_434" model="perencanaan.sbi">
+            <field name="name">Binder Forte Ordener F4-50 N</field>
+            <field name="code">521211 434</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_435" model="perencanaan.sbi">
+            <field name="name">Box File Kiniko Kinko N</field>
+            <field name="code">521211 435</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_436" model="perencanaan.sbi">
+            <field name="name">Map Business File N</field>
+            <field name="code">521211 436</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_437" model="perencanaan.sbi">
+            <field name="name">Map Sea Gull N</field>
+            <field name="code">521211 437</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_438" model="perencanaan.sbi">
+            <field name="name">Kertas Jilid N</field>
+            <field name="code">521211 438</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_439" model="perencanaan.sbi">
+            <field name="name">Plastik Jilid N</field>
+            <field name="code">521211 439</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_440" model="perencanaan.sbi">
+            <field name="name">Pelubang Kertas Combo cb 40 N</field>
+            <field name="code">521211 440</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_441" model="perencanaan.sbi">
+            <field name="name">Pelubang Kertas Joyco No.85 B N</field>
+            <field name="code">521211 441</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_442" model="perencanaan.sbi">
+            <field name="name">Stapler N</field>
+            <field name="code">521211 442</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_443" model="perencanaan.sbi">
+            <field name="name">Binder Clips V-Tech No. 260 N</field>
+            <field name="code">521211 443</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_444" model="perencanaan.sbi">
+            <field name="name">Binder Clips V-Tech No. 155 N</field>
+            <field name="code">521211 444</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_445" model="perencanaan.sbi">
+            <field name="name">Binder Clips V-Tech No. 111 N</field>
+            <field name="code">521211 445</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_446" model="perencanaan.sbi">
+            <field name="name">Binder Clips Warna N</field>
+            <field name="code">521211 446</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_447" model="perencanaan.sbi">
+            <field name="name">Binder Clips V-Tech No. 200 N</field>
+            <field name="code">521211 447</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_448" model="perencanaan.sbi">
+            <field name="name">Double Tape 1/2 N</field>
+            <field name="code">521211 448</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_449" model="perencanaan.sbi">
+            <field name="name">Double Tape 1 N</field>
+            <field name="code">521211 449</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_450" model="perencanaan.sbi">
+            <field name="name">Double Tape 2 N</field>
+            <field name="code">521211 450</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_451" model="perencanaan.sbi">
+            <field name="name">Staples Kecil N</field>
+            <field name="code">521211 451</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_452" model="perencanaan.sbi">
+            <field name="name">Staples Besar N</field>
+            <field name="code">521211 452</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_453" model="perencanaan.sbi">
+            <field name="name">Lem Fox Sachet 400 grm N</field>
+            <field name="code">521211 453</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_454" model="perencanaan.sbi">
+            <field name="name">Lem Fox Botol 150 Gr N</field>
+            <field name="code">521211 454</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_455" model="perencanaan.sbi">
+            <field name="name">Lakban Bening Max 45 x 70 N</field>
+            <field name="code">521211 455</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_456" model="perencanaan.sbi">
+            <field name="name">Lakban Hitam Hamchi 1,5 N</field>
+            <field name="code">521211 456</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_457" model="perencanaan.sbi">
+            <field name="name">Lakban Bening Sinomas N</field>
+            <field name="code">521211 457</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_458" model="perencanaan.sbi">
+            <field name="name">Isolasi Bening 0,5 N</field>
+            <field name="code">521211 458</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_459" model="perencanaan.sbi">
+            <field name="name">Lakban Bening Max 0,5 N</field>
+            <field name="code">521211 459</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_460" model="perencanaan.sbi">
+            <field name="name">Kertas A4S 70 Gram SIDU N</field>
+            <field name="code">521211 460</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_461" model="perencanaan.sbi">
+            <field name="name">Kertas A4S 80 Gram SIDU N</field>
+            <field name="code">521211 461</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_462" model="perencanaan.sbi">
+            <field name="name">Kertas Polio Bergaris N</field>
+            <field name="code">521211 462</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_463" model="perencanaan.sbi">
+            <field name="name">Kertas A3 70 Gram N</field>
+            <field name="code">521211 463</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_464" model="perencanaan.sbi">
+            <field name="name">Kertas A3 80 Gram N</field>
+            <field name="code">521211 464</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_465" model="perencanaan.sbi">
+            <field name="name">Kertas A4 70 Gram N</field>
+            <field name="code">521211 465</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_466" model="perencanaan.sbi">
+            <field name="name">Kertas A4 80 Gram N</field>
+            <field name="code">521211 466</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_467" model="perencanaan.sbi">
+            <field name="name">Kertas F4 70 Gram N</field>
+            <field name="code">521211 467</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_468" model="perencanaan.sbi">
+            <field name="name">Kertas F4 80 Gram N</field>
+            <field name="code">521211 468</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_469" model="perencanaan.sbi">
+            <field name="name">Kertas Sertifikat Linen Putih N</field>
+            <field name="code">521211 469</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_470" model="perencanaan.sbi">
+            <field name="name">Kertas Foto N</field>
+            <field name="code">521211 470</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_471" model="perencanaan.sbi">
+            <field name="name">Kertas Stiker N</field>
+            <field name="code">521211 471</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_472" model="perencanaan.sbi">
+            <field name="name">Kertas Karton N</field>
+            <field name="code">521211 472</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_473" model="perencanaan.sbi">
+            <field name="name">Kertas/Plastik Laminating N</field>
+            <field name="code">521211 473</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_474" model="perencanaan.sbi">
+            <field name="name">Baterey Panasonic NEO 9V N</field>
+            <field name="code">521211 474</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_475" model="perencanaan.sbi">
+            <field name="name">Baterey Panasonic Prima AA N</field>
+            <field name="code">521211 475</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_476" model="perencanaan.sbi">
+            <field name="name">Baterey ABC Alkaline AAA N</field>
+            <field name="code">521211 476</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_477" model="perencanaan.sbi">
+            <field name="name">Cutter Art Knives N</field>
+            <field name="code">521211 477</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_478" model="perencanaan.sbi">
+            <field name="name">Cutter Kenko L-500 N</field>
+            <field name="code">521211 478</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_479" model="perencanaan.sbi">
+            <field name="name">Trigonal Clips N</field>
+            <field name="code">521211 479</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_480" model="perencanaan.sbi">
+            <field name="name">Staples Etona No.10 N</field>
+            <field name="code">521211 480</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_481" model="perencanaan.sbi">
+            <field name="name">Staples Etona No. 3 N</field>
+            <field name="code">521211 481</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_482" model="perencanaan.sbi">
+            <field name="name">Ballpoint Pilot Balliner N</field>
+            <field name="code">521211 482</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_483" model="perencanaan.sbi">
+            <field name="name">Ballpoint Tinta Biasa N</field>
+            <field name="code">521211 483</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_484" model="perencanaan.sbi">
+            <field name="name">Ballpoint Tinta Cair N</field>
+            <field name="code">521211 484</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_485" model="perencanaan.sbi">
+            <field name="name">Pensil 2B N</field>
+            <field name="code">521211 485</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_486" model="perencanaan.sbi">
+            <field name="name">Pensil HB N</field>
+            <field name="code">521211 486</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_487" model="perencanaan.sbi">
+            <field name="name">Penghapus Pensil N</field>
+            <field name="code">521211 487</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_488" model="perencanaan.sbi">
+            <field name="name">Serutan Pensil N</field>
+            <field name="code">521211 488</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_489" model="perencanaan.sbi">
+            <field name="name">Label Nama N</field>
+            <field name="code">521211 489</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_490" model="perencanaan.sbi">
+            <field name="name">Catridge 810 Canon Black N</field>
+            <field name="code">521211 490</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_491" model="perencanaan.sbi">
+            <field name="name">Spidol Snowman PW N</field>
+            <field name="code">521211 491</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_492" model="perencanaan.sbi">
+            <field name="name">Spidol OPF Fine Hitam N</field>
+            <field name="code">521211 492</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_493" model="perencanaan.sbi">
+            <field name="name">Spidol Whiteboard (Permanen) N</field>
+            <field name="code">521211 493</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_494" model="perencanaan.sbi">
+            <field name="name">Spidol Whiteboard (Non Permanen) N</field>
+            <field name="code">521211 494</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_495" model="perencanaan.sbi">
+            <field name="name">Tinta Print Epson Black N</field>
+            <field name="code">521211 495</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_496" model="perencanaan.sbi">
+            <field name="name">Tinta Print Epson Warna N</field>
+            <field name="code">521211 496</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_497" model="perencanaan.sbi">
+            <field name="name">Tinta Print Epson N</field>
+            <field name="code">521211 497</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_498" model="perencanaan.sbi">
+            <field name="name">Epson Genuine 664 Yellow N</field>
+            <field name="code">521211 498</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_499" model="perencanaan.sbi">
+            <field name="name">Tinta Printer HP Laserjet N</field>
+            <field name="code">521211 499</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_500" model="perencanaan.sbi">
+            <field name="name">Tinta Printer Data Print Colour N</field>
+            <field name="code">521211 500</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_501" model="perencanaan.sbi">
+            <field name="name">Tinta Printer Data Print Black N</field>
+            <field name="code">521211 501</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_502" model="perencanaan.sbi">
+            <field name="name">Stempel Biasa N</field>
+            <field name="code">521211 502</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_503" model="perencanaan.sbi">
+            <field name="name">Stempel Flash/Warna N</field>
+            <field name="code">521211 503</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_504" model="perencanaan.sbi">
+            <field name="name">Tinta Stempel N</field>
+            <field name="code">521211 504</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_505" model="perencanaan.sbi">
+            <field name="name">Bantel Stempel N</field>
+            <field name="code">521211 505</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_506" model="perencanaan.sbi">
+            <field name="name">Map Batik N</field>
+            <field name="code">521211 506</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_507" model="perencanaan.sbi">
+            <field name="name">Map Plastik N</field>
+            <field name="code">521211 507</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_508" model="perencanaan.sbi">
+            <field name="name">Map Kertas N</field>
+            <field name="code">521211 508</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_509" model="perencanaan.sbi">
+            <field name="name">Stabilo Boss N</field>
+            <field name="code">521211 509</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_510" model="perencanaan.sbi">
+            <field name="name">Tape Dispenser Vitro V-132 N</field>
+            <field name="code">521211 510</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_511" model="perencanaan.sbi">
+            <field name="name">Toner Foto Cofy Steady 1000 GR N</field>
+            <field name="code">521211 511</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_512" model="perencanaan.sbi">
+            <field name="name">Gunting M-2000 Besar N</field>
+            <field name="code">521211 512</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_513" model="perencanaan.sbi">
+            <field name="name">Gunting Exsis SDG N</field>
+            <field name="code">521211 513</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_514" model="perencanaan.sbi">
+            <field name="name">Amplop Kotak N</field>
+            <field name="code">521211 514</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_515" model="perencanaan.sbi">
+            <field name="name">Amplop Panjang N</field>
+            <field name="code">521211 515</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_516" model="perencanaan.sbi">
+            <field name="name">Amplop Coklat F4 N</field>
+            <field name="code">521211 516</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_517" model="perencanaan.sbi">
+            <field name="name">Kuitansi Kecil N</field>
+            <field name="code">521211 517</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_518" model="perencanaan.sbi">
+            <field name="name">Flashdisk 16 G N</field>
+            <field name="code">521211 518</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_519" model="perencanaan.sbi">
+            <field name="name">Flashdisk 32 G N</field>
+            <field name="code">521211 519</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_520" model="perencanaan.sbi">
+            <field name="name">Penggaris Biasa 30 cm N</field>
+            <field name="code">521211 520</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_521" model="perencanaan.sbi">
+            <field name="name">Pengaris Besi 30 cm N</field>
+            <field name="code">521211 521</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_522" model="perencanaan.sbi">
+            <field name="name">Penggaris Biasa 60 cm N</field>
+            <field name="code">521211 522</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_523" model="perencanaan.sbi">
+            <field name="name">Penggaris Besi 60 cm N</field>
+            <field name="code">521211 523</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_524" model="perencanaan.sbi">
+            <field name="name">Buku Tamu/Registrasi N</field>
+            <field name="code">521211 524</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_525" model="perencanaan.sbi">
+            <field name="name">Buku Surat Masuk - Keluar N</field>
+            <field name="code">521211 525</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_526" model="perencanaan.sbi">
+            <field name="name">Tipe X N</field>
+            <field name="code">521211 526</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+        <record id="sbi_521211_527" model="perencanaan.sbi">
+            <field name="name">Sticky Note (Mini) N</field>
+            <field name="code">521211 527</field>
+            <field name="price">0.0</field>
+            <field name="akun_id" ref="akun_521211"/>
+        </record>
+    </data>
+</odoo>

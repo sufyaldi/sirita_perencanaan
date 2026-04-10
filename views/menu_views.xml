@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Top Menu Root -->
+        <menuitem id="menu_sirita_perencanaan_root"
+                  name="SIRITA Perencanaan"
+                  web_icon="sirita_perencanaan,static/description/icon.png"
+                  sequence="10"/>
+
+        <!-- Dashboard Action -->
+        <record id="action_perencanaan_dashboard" model="ir.actions.client">
+            <field name="name">Beranda Perencanaan</field>
+            <field name="tag">perencanaan_dashboard_action</field>
+        </record>
+
+        <menuitem id="menu_perencanaan_dashboard" 
+                  name="Beranda" 
+                  parent="menu_sirita_perencanaan_root" 
+                  sequence="1" 
+                  action="action_perencanaan_dashboard"/>
+
+        <!-- Laporan Pagu & Usulan -->
+        <menuitem id="menu_perencanaan_anggaran_group"
+                  name="Anggaran"
+                  parent="menu_sirita_perencanaan_root"
+                  sequence="10"/>
+
+        <menuitem id="menu_perencanaan_pagu" 
+                  name="Usulan Pagu (PMR)" 
+                  parent="menu_perencanaan_anggaran_group" 
+                  sequence="10" 
+                  action="action_perencanaan_pagu"/>
+
+        <!-- Proses Revisi -->
+        <menuitem id="menu_perencanaan_revisi_group"
+                  name="Revisi"
+                  parent="menu_sirita_perencanaan_root"
+                  sequence="20"/>
+
+        <menuitem id="menu_perencanaan_revisi" 
+                  name="Usulan Revisi (V1-VN)" 
+                  parent="menu_perencanaan_revisi_group" 
+                  sequence="10" 
+                  action="action_perencanaan_revisi"/>
+
+        <!-- Konfigurasi / Master Data -->
+        <menuitem id="menu_perencanaan_config_group"
+                  name="Konfigurasi"
+                  parent="menu_sirita_perencanaan_root"
+                  sequence="100"/>
+                  
+        <!-- Sub-menus (Actions defined later) -->
+        <menuitem id="menu_perencanaan_sumber" name="Sumber Anggaran" parent="menu_perencanaan_config_group" sequence="10" action="action_perencanaan_sumber"/>
+        <menuitem id="menu_perencanaan_iku" name="Indikator IKU" parent="menu_perencanaan_config_group" sequence="20" action="action_perencanaan_iku"/>
+        <!-- KONFIGURASI PERIODE (2 MENU) -->
+        <menuitem id="menu_perencanaan_period_initial" name="Periode Usulan Anggaran" 
+                  parent="menu_perencanaan_config_group" action="action_perencanaan_period_initial" sequence="20"/>
+        
+        <menuitem id="menu_perencanaan_period_revision" name="Periode Usulan Revisi" 
+                  parent="menu_perencanaan_config_group" action="action_perencanaan_period_revision" sequence="21"/>
+        <menuitem id="menu_perencanaan_satuan" name="Satuan" parent="menu_perencanaan_config_group" sequence="40" action="action_perencanaan_satuan"/>
+        <menuitem id="menu_perencanaan_akun" name="Akun (Mata Anggaran)" parent="menu_perencanaan_config_group" sequence="50" action="action_perencanaan_akun"/>
+        <menuitem id="menu_perencanaan_sbi" name="Standar Biaya (SBI)" parent="menu_perencanaan_config_group" sequence="60" action="action_perencanaan_sbi"/>
+    </data>
+</odoo>

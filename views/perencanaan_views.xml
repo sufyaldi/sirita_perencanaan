@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- LIST VIEW (Sederhana Sekali) -->
+        <record id="view_perencanaan_anggaran_tree_clean" model="ir.ui.view">
+            <field name="name">sirita.perencanaan.anggaran.list</field>
+            <field name="model">sirita.perencanaan.anggaran</field>
+            <field name="arch" type="xml">
+                <list string="Daftar Perencanaan">
+                    <field name="name"/>
+                    <field name="year"/>
+                    <field name="type"/>
+                    <field name="total_amount" sum="Total"/>
+                    <field name="state" widget="badge"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- FORM VIEW (Sederhana Sekali - Tanpa Chatter atau Ornament) -->
+        <record id="view_perencanaan_anggaran_form_clean" model="ir.ui.view">
+            <field name="name">sirita.perencanaan.anggaran.form</field>
+            <field name="model">sirita.perencanaan.anggaran</field>
+            <field name="arch" type="xml">
+                <form string="Borang Perencanaan">
+                    <header>
+                        <!-- Flow Buttons -->
+                        <button name="action_submit_spi" string="Kirim ke SPI" type="object" class="oe_highlight" 
+                                invisible="state != 'draft'" groups="sirita_perencanaan.group_perencanaan_user"/>
+                        
+                        <button name="action_submit_lpm" string="Lulus Reviu SPI" type="object" class="oe_highlight" 
+                                invisible="state != 'spi'" groups="sirita_perencanaan.group_perencanaan_spi"/>
+                        
+                        <button name="action_approve" string="Setujui Pagu (LPM)" type="object" class="oe_highlight" 
+                                invisible="state != 'lpm'" groups="sirita_perencanaan.group_perencanaan_lpm"/>
+                        
+                        <button name="action_refuse" string="Perlu Revisi" type="object" 
+                                invisible="state not in ['spi', 'lpm']" groups="sirita_perencanaan.group_perencanaan_spi,sirita_perencanaan.group_perencanaan_lpm"
+                                confirm="Kembalikan ke Draft untuk direvisi unit?"/>
+                        
+                        <button name="action_create_revision" string="Ajukan Revisi" type="object" class="btn-info" 
+                                invisible="state != 'done'" groups="sirita_perencanaan.group_perencanaan_user"
+                                confirm="Buat salinan revisi baru dari pagu ini?"/>
+                        
+                        <!-- NEW: Print TOR/KAK -->
+                        <button name="action_print_tor" string="Cetak TOR (KAK)" type="object" class="btn-primary" 
+                                invisible="state == 'draft'"/>
+
+                        <field name="state" widget="statusbar" statusbar_visible="draft,spi,lpm,done"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1><field name="name" placeholder="Misal: Pengadaan Komputer Program Studi..."/></h1>
+                            <h4 invisible="not parent_id">Berasal dari: <field name="parent_id" readonly="1" class="oe_link"/></h4>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="year"/>
+                                <field name="iku_id" options="{'no_create': True, 'no_open': True}"/>
+                                <field name="type"/>
+                                <field name="department_id"/>
+                            </group>
+                            <group>
+                                <field name="revision_number" readonly="1"/>
+                                <field name="user_id" readonly="1"/>
+                                <field name="currency_id" invisible="1"/>
+                                <field name="total_amount" decoration-bf="1" decoration-primary="1"/>
+                            </group>
+                        </group>
+
+                        <group string="Umpan Balik / Catatan Review" invisible="state == 'draft' and not review_notes">
+                            <field name="review_notes" placeholder="Tulis catatan jika ada revisi (oleh SPI/LPM)..." 
+                                    readonly="state in ['draft', 'done']"/>
+                        </group>
+
+                        <notebook>
+                            <page string="Formulir TOR (KAK)">
+                                <header>
+                                    <separator string="IDENTITAS KEGIATAN"/>
+                                </header>
+                                <group>
+                                    <group>
+                                        <field name="tor_kementerian"/>
+                                        <field name="tor_organisasi"/>
+                                        <field name="tor_program"/>
+                                        <field name="tor_satker"/>
+                                    </group>
+                                    <group>
+                                        <field name="tor_output_expected" placeholder="Uraikan hasil yang diharapkan..."/>
+                                        <field name="tor_performance_indicator" placeholder="Uraikan indikator kinerja..."/>
+                                        <field name="tor_output_type" placeholder="Uraikan satuan ukur dan jenis keluaran..."/>
+                                    </group>
+                                </group>
+                                
+                                <notebook>
+                                    <page string="1. Latar Belakang">
+                                        <field name="tor_legal_basis" placeholder="a. Dasar Hukum"/>
+                                        <field name="tor_general_overview" placeholder="b. Gambaran Umum"/>
+                                        <field name="tor_rationale" placeholder="c. Alasan Kegiatan Dilaksanakan"/>
+                                    </page>
+                                    <page string="2. Kegiatan">
+                                        <field name="tor_activity_description" placeholder="a. Uraian Kegiatan"/>
+                                        <field name="tor_activity_target" placeholder="b. Sasaran Kegiatan"/>
+                                    </page>
+                                    <page string="3. Maksud &amp; Tujuan">
+                                        <field name="tor_maksud" placeholder="a. Maksud Kegiatan"/>
+                                        <field name="tor_tujuan" placeholder="b. Tujuan Kegiatan"/>
+                                    </page>
+                                    <page string="4. Indikator &amp; Keluaran">
+                                        <field name="tor_indicator_qualitative" placeholder="a. Indikator Keluaran (Kualitatif)"/>
+                                        <field name="tor_output_quantitative" placeholder="b. Keluaran (Kuantitatif)"/>
+                                    </page>
+                                    <page string="5. Cara Pelaksanaan">
+                                        <field name="tor_method" placeholder="a. Metode Pelaksanaan"/>
+                                        <field name="tor_stages" placeholder="b. Tahapan Kegiatan"/>
+                                    </page>
+                                    <page string="6. Tempat Pelaksanaan">
+                                        <group>
+                                            <field name="tor_location"/>
+                                        </group>
+                                    </page>
+                                    <page string="7. Pelaksana">
+                                        <group>
+                                            <field name="tor_coordinator_id"/>
+                                            <field name="tor_member_ids" widget="many2many_tags"/>
+                                        </group>
+                                    </page>
+                                    <page string="8. Jadwal Pelaksanaan">
+                                        <group>
+                                            <field name="tor_schedule_desc"/>
+                                            <label for="tor_m1" string="Matriks Bulanan"/>
+                                            <div class="o_row">
+                                                <span>Jan</span><field name="tor_m1"/>
+                                                <span>Feb</span><field name="tor_m2"/>
+                                                <span>Mar</span><field name="tor_m3"/>
+                                                <span>Apr</span><field name="tor_m4"/>
+                                                <span>Mei</span><field name="tor_m5"/>
+                                                <span>Jun</span><field name="tor_m6"/>
+                                                <span>Jul</span><field name="tor_m7"/>
+                                                <span>Agu</span><field name="tor_m8"/>
+                                                <span>Sep</span><field name="tor_m9"/>
+                                                <span>Okt</span><field name="tor_m10"/>
+                                                <span>Nov</span><field name="tor_m11"/>
+                                                <span>Des</span><field name="tor_m12"/>
+                                            </div>
+                                        </group>
+                                    </page>
+                                </notebook>
+                            </page>
+                            <page string="Rincian Usulan Anggaran">
+                                <field name="item_ids" readonly="state != 'draft'">
+                                    <list editable="bottom">
+                                        <field name="sbi_id" options="{'no_create': True, 'no_open': True}"/>
+                                        <field name="name"/>
+                                        <field name="akun_id" options="{'no_create': True, 'no_open': True}"/>
+                                        <field name="is_custom" widget="boolean_toggle"/>
+                                        <field name="volume"/>
+                                        <field name="satuan_id" options="{'no_create': True, 'no_open': True}"/>
+                                        <field name="unit_price"/>
+                                        <field name="total"/>
+                                    </list>
+                                </field>
+                            </page>
+                            <page string="Riwayat Perubahan (Revisi)" invisible="not revision_ids">
+                                <field name="revision_ids" readonly="1">
+                                    <list>
+                                        <field name="name"/>
+                                        <field name="year"/>
+                                        <field name="total_amount"/>
+                                        <field name="state" widget="badge"/>
+                                    </list>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- ACTION (Hanya List,Form) -->
+        <record id="action_perencanaan_pagu" model="ir.actions.act_window">
+            <field name="name">Usulan Pagu (PMR)</field>
+            <field name="res_model">sirita.perencanaan.anggaran</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <record id="action_perencanaan_revisi" model="ir.actions.act_window">
+            <field name="name">Riwayat Revisi Anggaran</field>
+            <field name="res_model">sirita.perencanaan.anggaran</field>
+            <field name="view_mode">list,form</field>
+            <field name="domain">[('type', '=', '3')]</field>
+            <field name="context">{'default_type': '3', 'create': False}</field>
+        </record>
+
+        <!-- MASTER DATA IKU -->
+        <record id="view_perencanaan_iku_tree" model="ir.ui.view">
+            <field name="name">sirita.perencanaan.iku.list</field>
+            <field name="model">sirita.perencanaan.iku</field>
+            <field name="arch" type="xml">
+                <list editable="bottom">
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="description"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="action_iku_master" model="ir.actions.act_window">
+            <field name="name">Master IKU</field>
+            <field name="res_model">sirita.perencanaan.iku</field>
+            <field name="view_mode">list</field>
+        </record>
+    </data>
+</odoo>

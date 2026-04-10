@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_tor_document">
+            <t t-call="web.external_layout">
+                <!-- Custom Styles for Professional TOR -->
+                <style>
+                    .tor-body { font-family: 'Arial', sans-serif; font-size: 10pt; line-height: 1.5; color: black; text-align: justify; }
+                    .tor-header-table td { border: none !important; padding: 2px !important; vertical-align: top; }
+                    .tor-section-title { font-weight: bold; text-decoration: underline; margin-top: 20px; font-size: 11pt; }
+                    .tor-content { padding-left: 20px; margin-bottom: 10px; width: 100%; }
+                    .tor-matrix { width: 100%; border-collapse: collapse; margin-top: 10px; }
+                    .tor-matrix td, .tor-matrix th { border: 1px solid black !important; text-align: center; padding: 4px !important; }
+                    .tor-footer { font-size: 8pt; color: #444; border-top: 1px solid #777; margin-top: 30px; padding-top: 5px; }
+                    .label-bold { font-weight: bold; }
+                </style>
+
+                <div class="page tor-body">
+                    <!-- Header Utama -->
+                    <div class="text-center" style="margin-bottom: 25px;">
+                        <h5 class="label-bold" style="margin-bottom: 0;">KERANGKA ACUAN KEGIATAN</h5>
+                        <h5 class="label-bold" style="margin-top: 0;">(TERM OF REFERENCE)</h5>
+                    </div>
+
+                    <!-- Identitas Atas -->
+                    <table class="table table-sm tor-header-table">
+                        <tr>
+                            <td width="30%">KEMENTERIAN NEGARA/LEMBAGA</td><td>: <t t-esc="doc.tor_kementerian"/></td>
+                        </tr>
+                        <tr>
+                            <td>UNIT ORGANISASI</td><td>: <t t-esc="doc.tor_organisasi"/></td>
+                        </tr>
+                        <tr>
+                            <td>PROGRAM</td><td>: <t t-esc="doc.tor_program"/></td>
+                        </tr>
+                        <tr>
+                            <td>SATUAN KERJA</td><td>: <t t-esc="doc.tor_satker"/></td>
+                        </tr>
+                        <tr>
+                            <td>UNIT KERJA</td><td>: <t t-esc="doc.sudo().department_id.name"/></td>
+                        </tr>
+                        <tr>
+                            <td>NAMA KEGIATAN</td><td>: <t t-esc="doc.name"/></td>
+                        </tr>
+                    </table>
+
+                    <!-- Summary Sections (Heading Only if content exists, otherwise empty space) -->
+                    <div class="mt16">
+                        <div class="label-bold">HASIL YANG DIHARAPKAN (OUTPUT):</div>
+                        <div class="tor-content"><t t-out="doc.tor_output_expected or '-'"/></div>
+                    </div>
+                    <div class="mt12">
+                        <div class="label-bold">INDIKATOR KINERJA KEGIATAN:</div>
+                        <div class="tor-content"><t t-out="doc.tor_performance_indicator or '-'"/></div>
+                    </div>
+                    <div class="mt12">
+                        <div class="label-bold">SATUAN UKUR DAN JENIS KELUARAN:</div>
+                        <div class="tor-content"><t t-out="doc.tor_output_type or '-'"/></div>
+                    </div>
+
+                    <!-- 1. Latar Belakang -->
+                    <div class="tor-section-title">1. Latar Belakang (why)</div>
+                    <div class="mt8">
+                        <div class="label-bold">a. Dasar Hukum</div>
+                        <div class="tor-content"><t t-out="doc.tor_legal_basis or '-'"/></div>
+                    </div>
+                    <div class="mt8">
+                        <div class="label-bold">b. Gambaran Umum</div>
+                        <div class="tor-content"><t t-out="doc.tor_general_overview or '-'"/></div>
+                    </div>
+                    <div class="mt8">
+                        <div class="label-bold">c. Alasan Kegiatan Dilaksanakan</div>
+                        <div class="tor-content"><t t-out="doc.tor_rationale or '-'"/></div>
+                    </div>
+
+                    <!-- 2. Kegiatan -->
+                    <div class="tor-section-title">2. Kegiatan Yang Dilaksanakan (what)</div>
+                    <div class="mt8">
+                        <div class="label-bold">a. Uraian Kegiatan</div>
+                        <div class="tor-content"><t t-out="doc.tor_activity_description or '-'"/></div>
+                    </div>
+                    <div class="mt8">
+                        <div class="label-bold">b. Sasaran Kegiatan</div>
+                        <div class="tor-content"><t t-out="doc.tor_activity_target or '-'"/></div>
+                    </div>
+
+                    <!-- 3. Maksud & Tujuan -->
+                    <div class="tor-section-title">3. Maksud dan Tujuan (why)</div>
+                    <div class="mt8">
+                        <div class="label-bold">a. Maksud Kegiatan</div>
+                        <div class="tor-content"><t t-out="doc.tor_maksud or '-'"/></div>
+                    </div>
+                    <div class="mt8">
+                        <div class="label-bold">b. Tujuan Kegiatan</div>
+                        <div class="tor-content"><t t-out="doc.tor_tujuan or '-'"/></div>
+                    </div>
+
+                    <!-- 4. Indikator & Keluaran -->
+                    <div class="tor-section-title">4. Indikator Keluaran dan Keluaran</div>
+                    <div class="mt8">
+                        <div class="label-bold">a. Indikator Keluaran (kualitatif)</div>
+                        <div class="tor-content"><t t-out="doc.tor_indicator_qualitative or '-'"/></div>
+                    </div>
+                    <div class="mt8">
+                        <div class="label-bold">b. Keluaran (kuantitatif)</div>
+                        <div class="tor-content"><t t-out="doc.tor_output_quantitative or '-'"/></div>
+                    </div>
+
+                    <!-- 5. Cara Pelaksanaan -->
+                    <div class="tor-section-title">5. Cara Pelaksanaan Kegiatan (how)</div>
+                    <div class="mt8">
+                        <div class="label-bold">a. Metode Pelaksanaan</div>
+                        <div class="tor-content"><t t-out="doc.tor_method or '-'"/></div>
+                    </div>
+                    <div class="mt8">
+                        <div class="label-bold">b. Tahapan Kegiatan</div>
+                        <div class="tor-content"><t t-out="doc.tor_stages or '-'"/></div>
+                    </div>
+
+                    <!-- 6. Tempat -->
+                    <div class="tor-section-title">6. Tempat Pelaksanaan (where)</div>
+                    <div class="tor-content"><t t-esc="doc.tor_location or 'IAIN Parepare'"/></div>
+
+                    <!-- 7. Pelaksana -->
+                    <div class="tor-section-title">7. Pelaksana dan Penanggungjawab Kegiatan (how)</div>
+                    <div class="mt8 tor-content">
+                        <div class="label-bold">a. Pelaksana Kegiatan</div>
+                        <div style="margin-left: 10px;">
+                            Koordinator: <t t-esc="doc.sudo().tor_coordinator_id.name or '-'"/> <br/>
+                            Anggota: <span t-esc="', '.join(doc.sudo().tor_member_ids.mapped('name')) or '-'"/>
+                        </div>
+                    </div>
+                    <div class="mt8 tor-content">
+                        <div class="label-bold">b. Penanggungjawab Kegiatan</div>
+                        <div style="margin-left: 10px;">
+                            Kepala <t t-esc="doc.sudo().department_id.name"/>
+                        </div>
+                    </div>
+
+                    <!-- 8. Jadwal -->
+                    <div class="tor-section-title">8. Jadwal Kegiatan</div>
+                    <div class="mt8 tor-content">
+                        <div class="label-bold">a. Waktu Pelaksanaan Kegiatan (When)</div>
+                        <div><t t-esc="doc.tor_schedule_desc or 'Januari s/d Desember 2024'"/></div>
+                        <div class="label-bold mt12">b. Matrik Pelaksanaan Kegiatan (time table/rundown)</div>
+                        <table class="tor-matrix">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2" style="vertical-align: middle; width: 40%;">Kegiatan</th>
+                                    <th colspan="12">Bulan</th>
+                                </tr>
+                                <tr>
+                                    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: left;"><t t-esc="doc.name"/></td>
+                                    <td><t t-if="doc.tor_m1">V</t></td><td><t t-if="doc.tor_m2">V</t></td><td><t t-if="doc.tor_m3">V</t></td>
+                                    <td><t t-if="doc.tor_m4">V</t></td><td><t t-if="doc.tor_m5">V</t></td><td><t t-if="doc.tor_m6">V</t></td>
+                                    <td><t t-if="doc.tor_m7">V</t></td><td><t t-if="doc.tor_m8">V</t></td><td><t t-if="doc.tor_m9">V</t></td>
+                                    <td><t t-if="doc.tor_m10">V</t></td><td><t t-if="doc.tor_m11">V</t></td><td><t t-if="doc.tor_m12">V</t></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- 9. Biaya -->
+                    <div class="tor-section-title">9. Biaya (how much)</div>
+                    <div class="tor-content">
+                        Total biaya yang diperlukan dalam kegiatan ini sebesar 
+                        <strong><t t-esc="doc.total_amount" t-options='{"widget": "monetary", "display_currency": doc.currency_id}'/></strong> 
+                        (<t t-esc="doc.currency_id.amount_to_text(doc.total_amount)"/>), dengan uraian Rencana Anggaran Biaya (RAB) terlampir.
+                    </div>
+
+                    <!-- Bagian Tanda Tangan (QR TTE oleh Pimpinan Unit Kerja) -->
+                    <div class="mt32" style="page-break-inside: avoid;">
+                        <div class="row">
+                            <div class="col-7"></div>
+                            <div class="col-5 text-center">
+                                <p>Parepare, <t t-esc="datetime.date.today().strftime('%d %B %Y')"/></p>
+                                <p style="margin-bottom: 5px;">
+                                    Kepala <t t-esc="doc.sudo().department_id.name"/><br/>
+                                    IAIN PAREPARE
+                                </p>
+                                
+                                <!-- QR TTE System (Pejabat Pimpinan) -->
+                                <div class="mt8 mb8">
+                                    <t t-set="pimpinan" t-value="doc.sudo().department_id.manager_id"/>
+                                    <img t-att-src="'/report/barcode/?barcode_type=QR&amp;value=%s&amp;width=100&amp;height=100' % ('Verified document: TOR/KAK %s for %s. Officially Signed by %s (Head of %s) on %s' % (doc.name, doc.sudo().department_id.name, pimpinan.name or 'Head of Unit', doc.sudo().department_id.name, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))" style="width:100px; height:100px; padding: 5px; border: 1px solid #eee;"/>
+                                    <div style="font-size: 7pt; color: #777; font-style: italic;">
+                                        Telah Disahkan Secara Elektronik (TTE)<br/>
+                                        oleh Pimpinan Unit Kerja melaui SIRITA
+                                    </div>
+                                </div>
+
+                                <div class="label-bold" style="text-decoration: underline;">
+                                    <t t-esc="doc.sudo().department_id.manager_id.name or 'Nama Pimpinan Belum Diatur'"/>
+                                </div>
+                                <div>NIP/NIDN. <t t-esc="doc.sudo().department_id.manager_id.nidn or '-'"/></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Informasi -->
+                    <div class="tor-footer">
+                        <div class="row">
+                            <div class="col-8">
+                                Page : <span class="page"/> of <span class="topage"/>, Copyright © afs 2021-2026 - (sufyaldy)
+                            </div>
+                            <div class="col-4 text-right">
+                                Dicetak pada Tgl: <t t-esc="datetime.datetime.now().strftime('%d %b %Y')"/> Jam: <t t-esc="datetime.datetime.now().strftime('%H:%M:%S')"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="report_tor">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="sirita_perencanaan.report_tor_document" t-lang="doc.user_id.lang"/>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>
