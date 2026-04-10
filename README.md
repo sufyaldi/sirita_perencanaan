@@ -14,8 +14,8 @@
 - **Integrity-Driven Workflow**: Validasi berjenjang yang ketat dari tingkat **Operator → SPI → LPM** untuk memastikan setiap usulan memenuhi standar integritas institusi.
 - **Dual-Period Management**: Kontrol yang sangat presisi antara **Periode Usulan Awal** dan **Periode Usulan Revisi (V1 hingga VN)**.
 - **Organic Master Data Growth**: Item SBI kustom yang divalidasi oleh SPI secara otomatis dikonversi menjadi *Master Database SBI* Institusi yang terus bertumbuh secara organik.
-- **Seamless Integration**: Terintegrasi penuh dengan aplikasi SIRITA lainnya (Akademik, OJS) serta platform eksternal seperti Sevima dan SISTER.
-- **Smart Budgeting Ready**: Mendukung pemetaan kategori anggaran berbasis AI untuk meminimalkan kesalahan manusia dalam input data.
+- **Seamless Integration**: Terintegrasi penuh dengan addon default dan custom odoo lainnya.
+- **Smart Budgeting Ready**: Dapat di integrasikan dengan AI (Plugin 'sirita_perencanaan_ai') untuk pemetaan kategori Anggaran (On Progress...... )
 
 ---
 
