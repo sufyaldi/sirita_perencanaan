@@ -48,6 +48,6 @@ Modul ini menghasilkan dokumen TOR (Terms of Reference) yang siap cetak serta do
 
 ##  Kontributor & Lisensi
 
-- **Author**: Sufyaldy | [sufyaldys@gmail.com](mailto:sufyaldys@gmail.com)
-- **Organization**: SIRITA Ecosystem 
+- **Author**: Sufyaldy | [sufyaldys@gmail.com](mailto:sufyaldys@gmail.com) | IAIN Parepare
+- **Organization**: TIPD IAIN Parepare
 - **License**: LGPL-3 (Lesser General Public License)
