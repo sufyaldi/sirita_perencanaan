@@ -8,33 +8,39 @@
             <field name="sequence">5</field>
         </record>
 
+        <!-- PRIVILEGE FOR SIRITA PERENCANAAN -->
+        <record id="privilege_sirita_perencanaan" model="res.groups.privilege">
+            <field name="name">Perencanaan Anggaran Access</field>
+            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+        </record>
+
         <!-- GRUP: USER UNIT KERJA -->
         <record id="group_perencanaan_user" model="res.groups">
             <field name="name">User Unit Kerja (Pengusul)</field>
-            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+            <field name="privilege_id" ref="privilege_sirita_perencanaan"/>
             <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
         </record>
 
         <!-- GRUP: SPI (REVIU) -->
         <record id="group_perencanaan_spi" model="res.groups">
             <field name="name">SPI (Reviu SPI)</field>
-            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+            <field name="privilege_id" ref="privilege_sirita_perencanaan"/>
             <field name="implied_ids" eval="[(4, ref('group_perencanaan_user'))]"/>
         </record>
 
         <!-- GRUP: LPM (REVIU) -->
         <record id="group_perencanaan_lpm" model="res.groups">
             <field name="name">LPM (Reviu LPM)</field>
-            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+            <field name="privilege_id" ref="privilege_sirita_perencanaan"/>
             <field name="implied_ids" eval="[(4, ref('group_perencanaan_user'))]"/>
         </record>
 
         <!-- GRUP: MANAGER PERENCANAAN (ADMIN/PUSAT) -->
         <record id="group_perencanaan_manager" model="res.groups">
             <field name="name">Manager Perencanaan (Admin Pusat)</field>
-            <field name="category_id" ref="module_category_sirita_perencanaan"/>
+            <field name="privilege_id" ref="privilege_sirita_perencanaan"/>
             <field name="implied_ids" eval="[(4, ref('group_perencanaan_spi')), (4, ref('group_perencanaan_lpm'))]"/>
-            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+            <field name="user_ids" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
         </record>
 
         <!-- RECORD RULE: USER UNIT KERJA (SEKAT ANTAR UNIT) -->
